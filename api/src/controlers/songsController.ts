@@ -46,4 +46,13 @@ import { Request, Response } from 'express'
       res.json({message: error.message})
     }
   }
+    export async function getSongTittles(_req: Request, res: Response){
+      try {
+        const songs = await Song.find();
+        const tittles = songs.map((s)=>{ return s.tittle} )
+        res.json(tittles)
+      } catch (error:any) {
+        res.json({message: error.message})
+      }
+    }
 

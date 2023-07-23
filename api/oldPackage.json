@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev src/index.ts",
-    "build": "tsc -p .",
+    "lint": "ts-standard",
     "start": "node build/index.js",
-    "lint": "ts-standard"
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
@@ -35,32 +36,5 @@
     "extends": [
       "./node_modules/ts-standard/eslintrc.json"
     ]
-  },
-  "engines": {
-    "node": ">=12"
-  },
-  "browserslist": [
-    "last 2 versions",
-    "> 0.5%"
-  ],
-  "jest": {
-    "transform": {
-      "^.+\\.tsx?$": "ts-jest"
-    },
-    "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.tsx?$",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "jsx",
-      "json",
-      "node"
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint",
-      "pre-push": "npm run test"
-    }
   }
 }
