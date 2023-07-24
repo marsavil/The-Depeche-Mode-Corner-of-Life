@@ -1,5 +1,5 @@
 import { Router } from 'express'
-import { getSong, getSongs, getSongsByTittle, getSongsByAlbum, getSongsByProducer, getSongTittles } from '../controlers/songsController'
+import { getSong, getSongs, getSongsByTittle, getSongsByAlbum, getSongsByProducer, getSongTittles } from '../controllers/songsController'
 
 const router = Router()
 

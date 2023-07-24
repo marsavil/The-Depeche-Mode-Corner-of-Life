@@ -1,5 +1,5 @@
 import { Router } from 'express'
-import getBio from '../controlers/bio'
+import getBio from '../controllers/bio'
 
 const router = Router()
 

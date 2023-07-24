@@ -1,5 +1,13 @@
 import { Devotee } from "../models/devotee";
-import devotees from "../devotees/devotees";
+import { Request, Response } from "express";
+import axios from "axios";
+import * as bcrypt from "bcrypt";
+import * as dotenv from "dotenv";
+import { getRandomArbitrary } from "../functions";
+dotenv.config()
+const code = "añlsdkfjqpw3ri5781";
+const password = "contraseña";
+const ROUNDS = Number(process.env.ROUNDS)
 
 const songs = [
   "New Life",
@@ -136,9 +144,43 @@ const songs = [
   "Dangerous",
   "Personal Jesus"
 ]
-const names = []
-console.log(songs.length)
 
-export default async function chargeDevotees(){
+
+export async function chargeDevotees(_req: Request, res: Response){
+  const people = await axios.get("https://api.generadordni.es/v2/profiles/person?limit=10");
+  const passwordHasshed= await bcrypt.hash(password, ROUNDS)
+  let count = 0
+  people.data.forEach((p: any) => {
+    let favSongs = [];
+    for (let i = 0; i < 10; i++) {
+      favSongs.push(songs[getRandomArbitrary(0, songs.length)]);
+    }
+    let devotee = new Devotee({
+      Name: p.name,
+      lastName: p.surname, 
+      userName: p.username,
+      email: p.email,
+      password: passwordHasshed,
+      favouriteSongs: favSongs,
+      image: "https://res.cloudinary.com/dlzp43wz9/image/upload/v1689692354/136-1366211_group-of-10-guys-login-user-icon-png_xuupui.jpg", 
+      country: "Argentina",
+      verified: true,
+      test: true, 
+      code
+    })
+    devotee.save();
+    count ++
+  })
+  return res.send({message: ` ${count} Devotees de prueba cargados a la BD`})
+}
+export async function deleteDevDevotees(_req: Request, res: Response){
+  console.log("entro")
+  try {
+    const devotees = await Devotee.find({ test: true })
+    devotees.forEach((d:any) => d.deleteOne())
+    return res.send({message: "todos los devotees de prueba fueron eliminados de la BD"})
+  } catch (error:any) {
+    return res.send(error)
+  }
 
 }
