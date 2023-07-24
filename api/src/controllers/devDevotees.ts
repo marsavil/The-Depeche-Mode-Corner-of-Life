@@ -1,4 +1,5 @@
 import { Devotee } from "../models/devotee";
+import { Song }from '../models/song'
 import { Request, Response } from "express";
 import axios from "axios";
 import * as bcrypt from "bcrypt";
@@ -169,12 +170,17 @@ export async function chargeDevotees(_req: Request, res: Response){
       code
     })
     devotee.save();
+    favSongs.forEach(async(s) => {
+      let song = await Song.findOne({tittle: s})
+      console.log(song);
+      song.favourite =+ 1;
+      song.save();
+    })
     count ++
   })
   return res.send({message: ` ${count} Devotees de prueba cargados a la BD`})
 }
 export async function deleteDevDevotees(_req: Request, res: Response){
-  console.log("entro")
   try {
     const devotees = await Devotee.find({ test: true })
     devotees.forEach((d:any) => d.deleteOne())
