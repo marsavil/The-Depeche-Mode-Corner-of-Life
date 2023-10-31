@@ -173,8 +173,12 @@ export async function chargeDevotees(_req: Request, res: Response){
     favSongs.forEach(async(s) => {
       let song = await Song.findOne({tittle: s})
       console.log(song);
-      song.favourite =+ 1;
-      song.save();
+      if ( song ){
+        song.favourite =+ 1;
+        song.save();
+      }
+
+
     })
     count ++
   })
