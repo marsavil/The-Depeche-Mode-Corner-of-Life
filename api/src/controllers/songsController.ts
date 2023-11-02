@@ -1,5 +1,6 @@
 import { Song } from "../models/song";
-import { Request, Response } from 'express'
+import { Devotee } from "../models/devotee";
+import { Request, Response } from 'express';
 
 
   export async function getSong(req:Request, res:Response){
@@ -52,6 +53,25 @@ import { Request, Response } from 'express'
         const tittles = songs.map((s)=>{ return s.tittle} )
         res.json(tittles)
       } catch (error:any) {
+        res.json({message: error.message})
+      }
+    }
+    export async function addSongToFavs(req: Request, res: Response){
+      try {
+        const { user, song } = req.params;
+        const devotee = await Devotee.findById(user);
+        const songDb = await Song.findById(song);
+        if ( songDb ) {
+          songDb.favourite++;
+        }
+        if ( devotee && songDb) {
+          devotee.favouriteSongs.push(songDb.tittle)
+        }
+        console.log(devotee?.userName)
+        console.log(songDb?.tittle)
+
+        res.json({ message: `${songDb?.tittle} has been added to ${devotee?.userName}'s favourite song`})
+      } catch (error: any) {
         res.json({message: error.message})
       }
     }
