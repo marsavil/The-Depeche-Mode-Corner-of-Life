@@ -171,6 +171,7 @@ export async function chargeDevotees(_req: Request, res: Response){
     })
     devotee.save();
     favSongs.forEach(async(s) => {
+
       try {
         let song = await Song.findOne({ tittle: s });
         if (song) {
@@ -182,6 +183,7 @@ export async function chargeDevotees(_req: Request, res: Response){
       } catch (error) {
         console.error(error);
       }
+
     })
     count ++
   })

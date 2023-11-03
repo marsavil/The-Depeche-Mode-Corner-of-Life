@@ -1,5 +1,6 @@
 import { Song } from "../models/song";
-import { Request, Response } from 'express'
+import { Devotee } from "../models/devotee";
+import { Request, Response } from 'express';
 
 
   export async function getSong(req:Request, res:Response){
@@ -56,6 +57,25 @@ import { Request, Response } from 'express'
         res.json({message: error.message})
       }
     }
+
+    export async function addSongToFavs(req: Request, res: Response){
+      try {
+        const { user, song } = req.params;
+        const devotee = await Devotee.findById(user);
+        const songDb = await Song.findById(song);
+        if ( songDb ) {
+          songDb.favourite++;
+        }
+        if ( devotee && songDb) {
+          devotee.favouriteSongs.push(songDb.tittle)
+        }
+        console.log(devotee?.userName)
+        console.log(songDb?.tittle)
+
+        res.json({ message: `${songDb?.tittle} has been added to ${devotee?.userName}'s favourite song`})
+      } catch (error: any) {
+        res.json({message: error.message})
+
     export async function getSongByFavourite(_req: Request, res: Response) {
       try {
         const top = await Song.find({favourite:{$gte : 1 }}).sort({ favourite: -1 }).limit(10)
@@ -63,6 +83,7 @@ import { Request, Response } from 'express'
         res.status(200).json(top)
       } catch (error:any) {
         res.send(error.message)
+
       }
     }
 
