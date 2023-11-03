@@ -171,13 +171,18 @@ export async function chargeDevotees(_req: Request, res: Response){
     })
     devotee.save();
     favSongs.forEach(async(s) => {
-      let song = await Song.findOne({tittle: s})
-      console.log(song);
-      if ( song ){
-        song.favourite =+ 1;
-        song.save();
-      }
 
+      try {
+        let song = await Song.findOne({ tittle: s });
+        if (song) {
+          song.favourite += 1;
+          await song.save();
+        } else {
+          console.log(`Canción no encontrada: ${s}`);
+        }
+      } catch (error) {
+        console.error(error);
+      }
 
     })
     count ++

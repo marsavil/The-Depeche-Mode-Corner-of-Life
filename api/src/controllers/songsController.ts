@@ -4,6 +4,7 @@ import { Request, Response } from 'express';
 
 
   export async function getSong(req:Request, res:Response){
+    console.log("esta ejecutando getSongs")
     try {
       const { id } = req.params;
       const song = await Song.findById(id);
@@ -56,6 +57,7 @@ import { Request, Response } from 'express';
         res.json({message: error.message})
       }
     }
+
     export async function addSongToFavs(req: Request, res: Response){
       try {
         const { user, song } = req.params;
@@ -73,6 +75,15 @@ import { Request, Response } from 'express';
         res.json({ message: `${songDb?.tittle} has been added to ${devotee?.userName}'s favourite song`})
       } catch (error: any) {
         res.json({message: error.message})
+
+    export async function getSongByFavourite(_req: Request, res: Response) {
+      try {
+        const top = await Song.find({favourite:{$gte : 1 }}).sort({ favourite: -1 }).limit(10)
+        console.log(top.length)
+        res.status(200).json(top)
+      } catch (error:any) {
+        res.send(error.message)
+
       }
     }
 
