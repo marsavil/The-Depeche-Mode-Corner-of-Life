@@ -2,7 +2,7 @@ import express from 'express'
 import dotenv from 'dotenv'
 import connect from './db'
 import server from './app'
-//import chargeSongs from './controllers/chargeSongs';
+//import chargeSongs from './src/controllers/chargeSongs';
 
 
 dotenv.config()
