@@ -21,10 +21,11 @@ import { Request, Response } from 'express';
       res.json({message: error.message})
     }
   }
-  export async function getSongsByTittle(req: Request, res: Response){
+  export async function getSongsByTitle(req: Request, res: Response){
     try {
-      const { tittle } = req.params;
-      const song = await Song.find({ tittle: { $regex: tittle, $options: "i" } });
+      const { title } = req.params;
+      console.log(title)
+      const song = await Song.find({ title: { $regex: title, $options: "i" } });
       res.json(song)
     } catch (error:any) {
       res.json({message: error.message})
@@ -48,11 +49,11 @@ import { Request, Response } from 'express';
       res.json({message: error.message})
     }
   }
-    export async function getSongTittles(_req: Request, res: Response){
+    export async function getSongTitles(_req: Request, res: Response){
       try {
         const songs = await Song.find();
-        const tittles = songs.map((s)=>{ return s.tittle} )
-        res.json(tittles)
+        const titles = songs.map((s)=>{ return s.title} )
+        res.json(titles)
       } catch (error:any) {
         res.json({message: error.message})
       }
@@ -60,30 +61,35 @@ import { Request, Response } from 'express';
 
     export async function addSongToFavs(req: Request, res: Response){
       try {
-        const { user, song } = req.params;
+        const { user, song } = req.body;
         const devotee = await Devotee.findById(user);
         const songDb = await Song.findById(song);
         if ( songDb ) {
           songDb.favourite++;
+          songDb.save();
         }
         if ( devotee && songDb) {
-          devotee.favouriteSongs.push(songDb.tittle)
+          devotee.favouriteSongs.push(songDb.title)
+          devotee.save();
+
         }
         console.log(devotee?.userName)
-        console.log(songDb?.tittle)
+        console.log(songDb?.title)
 
-        res.json({ message: `${songDb?.tittle} has been added to ${devotee?.userName}'s favourite song`})
+        res.json({ message: `${songDb?.title} has been added to ${devotee?.userName}'s favourite songs`})
       } catch (error: any) {
         res.json({message: error.message})
+      }
+    }
 
-    export async function getSongByFavourite(_req: Request, res: Response) {
+    export async function getTopFavourite(req: Request, res: Response) {
       try {
-        const top = await Song.find({favourite:{$gte : 1 }}).sort({ favourite: -1 }).limit(10)
+        const { rank } = req.params;
+        const top = await Song.find({favourite:{$gte : 1 }}).sort({ favourite: -1 }).limit(Number(rank))
         console.log(top.length)
         res.status(200).json(top)
       } catch (error:any) {
         res.send(error.message)
-
       }
     }
 

@@ -113,7 +113,7 @@ const songs = [
   "Happiest Girl",
   "Policy of Truth",
   "Sea of Sin",
-  "Death’s door",
+  "Death’s Door",
   "I Feel You",
   "One Caress",
   "Mercy in You",
@@ -148,13 +148,15 @@ const songs = [
 
 
 export async function chargeDevotees(_req: Request, res: Response){
-  const people = await axios.get("https://api.generadordni.es/v2/profiles/person?limit=10");
+  const people = await axios.get(`https://api.generadordni.es/v2/profiles/person`);
+  console.log(people.data.length, "cantidad de personas")
   const passwordHasshed= await bcrypt.hash(password, ROUNDS)
   let count = 0
   people.data.forEach((p: any) => {
     let favSongs = [];
     for (let i = 0; i < 10; i++) {
       favSongs.push(songs[getRandomArbitrary(0, songs.length)]);
+      console.log(songs[getRandomArbitrary(0, songs.length)])
     }
     let devotee = new Devotee({
       Name: p.name,
@@ -173,7 +175,7 @@ export async function chargeDevotees(_req: Request, res: Response){
     favSongs.forEach(async(s) => {
 
       try {
-        let song = await Song.findOne({ tittle: s });
+        let song = await Song.findOne({ title: s });
         if (song) {
           song.favourite += 1;
           await song.save();
