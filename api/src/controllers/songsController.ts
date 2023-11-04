@@ -4,7 +4,7 @@ import { Request, Response } from 'express';
 
 
   export async function getSong(req:Request, res:Response){
-    console.log("esta ejecutando getSongs")
+    console.log('get song')
     try {
       const { id } = req.params;
       const song = await Song.findById(id);
@@ -14,9 +14,10 @@ import { Request, Response } from 'express';
     }
   }
   export async function getSongs(_req: Request, res: Response){
+    console.log('get songs')
     try {
       const songs = await Song.find();
-      res.status(201).json(songs)
+      res.status(201).json({data: songs, length: songs.length})
     } catch (error: any) {
       res.json({message: error.message})
     }
