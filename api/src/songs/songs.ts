@@ -1,6 +1,6 @@
 const songs = [
   {
-    tittle: "Dreaming of me",
+    title: "Dreaming of me",
     release: [
       "Dreaming of me",
       "Speak and Spell (Deluxe)",
@@ -20,7 +20,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Ice Machine",
+    title: "Ice Machine",
     release: [
       "Dreaming of me",
       "Speak and Spell (Deluxe)",
@@ -40,7 +40,7 @@ const songs = [
     ],
   },
   {
-    tittle: "New Life",
+    title: "New Life",
     release: [
       "New Life",
       "Speak and Spell",
@@ -63,7 +63,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Shout",
+    title: "Shout",
     release: [
       "New Life",
       "Speak and Spell (Deluxe)",
@@ -85,7 +85,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Just Can't Get Enough",
+    title: "Just Can't Get Enough",
     release: [
       "Just Can't Get Enough",
       "Speak and Spell",
@@ -112,7 +112,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Any Second Now",
+    title: "Any Second Now",
     release: [
       "Just Can't Get Enough",
       "Speak and Spell",
@@ -131,7 +131,7 @@ const songs = [
     ],
   },
   {
-    tittle: "I Sometimes Wish I Was Dead",
+    title: "I Sometimes Wish I Was Dead",
     release: ["Speak and Spell", "Speak and Spell | The 12' Singles"],
     date: "1981-10-05",
     composer: ["Vince Clarke"],
@@ -145,7 +145,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Puppets",
+    title: "Puppets",
     release: ["Speak and Spell", "Remixes 2 81>11"],
     date: "1981-10-05",
     composer: ["Vince Clarke"],
@@ -159,7 +159,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Boys Say Go!",
+    title: "Boys Say Go!",
     release: [
       "Speak and Spell",
       "Construction Time Again | The 12' Singles",
@@ -177,7 +177,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Nodisco",
+    title: "Nodisco",
     release: ["Speak and Spell"],
     date: "1981-10-05",
     composer: ["Vince Clarke"],
@@ -191,7 +191,7 @@ const songs = [
     ],
   },
   {
-    tittle: "What's Your Name",
+    title: "What's Your Name",
     release: ["Speak and Spell"],
     date: "1981-10-05",
     composer: ["Vince Clarke"],
@@ -205,7 +205,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Photographic",
+    title: "Photographic",
     release: [
       "Speak and Spell",
       "The Singles 81>85",
@@ -225,7 +225,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Tora! Tora! Tora!",
+    title: "Tora! Tora! Tora!",
     release: [
       "Speak and Spell",
       "Remixes 2 81>11",
@@ -244,7 +244,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Big Muff",
+    title: "Big Muff",
     release: ["Speak and Spell"],
     date: "1981-10-05",
     composer: ["Martin Lee Gore"],
@@ -258,7 +258,7 @@ const songs = [
     ],
   },
   {
-    tittle: "See You",
+    title: "See You",
     release: [
       "See You",
       "A Broken Frame",
@@ -280,7 +280,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Now, This is Fun",
+    title: "Now, This is Fun",
     release: [
       "See You",
       "A Broken Frame (Deluxe)",
@@ -299,7 +299,7 @@ const songs = [
     ],
   },
   {
-    tittle: "The Meaning of Love",
+    title: "The Meaning of Love",
     release: [
       "The Meaning of Love",
       "A Broken Frame",
@@ -321,7 +321,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Oberkorn(It's a Small Town)",
+    title: "Oberkorn(It's a Small Town)",
     release: [
       "The Meaning of Love",
       "A Broken Frame (Deluxe)",
@@ -340,7 +340,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Leave in Silence",
+    title: "Leave in Silence",
     release: [
       "Leave in Silence",
       "A Broken Frame",
@@ -361,7 +361,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Excerpt From My Secret Garden",
+    title: "Excerpt From My Secret Garden",
     release: [
       "Leave in Silence",
       "A Broken Frame (Deluxe)",
@@ -380,7 +380,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Further Excerpt From My Secret Garden",
+    title: "Further Excerpt From My Secret Garden",
     release: ["Leave in Silence", "A Broken Frame | The 12' Singles", "DMBX1"],
     date: "1982-08-16",
     composer: ["Martin Lee Gore"],
@@ -394,7 +394,7 @@ const songs = [
     ],
   },
   {
-    tittle: "My Secret Garden",
+    title: "My Secret Garden",
     release: ["A Broken Frame", "Construction Time Again | The 12' Singles"],
     date: "1982-09-27",
     composer: ["Martin Lee Gore"],
@@ -408,7 +408,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Monument",
+    title: "Monument",
     release: ["A Broken Frame"],
     date: "1982-09-27",
     composer: ["Martin Lee Gore"],
@@ -422,7 +422,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Nothing to Fear",
+    title: "Nothing to Fear",
     release: [
       "A Broken Frame",
       "Construction Time Again | The 12' Singles",
@@ -440,7 +440,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Satellite",
+    title: "Satellite",
     release: ["A Broken Frame", "Construction Time Again | The 12' Singles"],
     date: "1982-09-27",
     composer: ["Martin Lee Gore"],
@@ -454,7 +454,7 @@ const songs = [
     ],
   },
   {
-    tittle: "A Photograph of You",
+    title: "A Photograph of You",
     release: [
       "A Broken Frame",
       "Construction Time Again | The 12' Singles",
@@ -472,7 +472,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Shouldn't Have Done That",
+    title: "Shouldn't Have Done That",
     release: ["A Broken Frame"],
     date: "1982-09-27",
     composer: ["Martin Lee Gore"],
@@ -486,7 +486,7 @@ const songs = [
     ],
   },
   {
-    tittle: "The Sun and the Rainfall",
+    title: "The Sun and the Rainfall",
     release: ["A Broken Frame"],
     date: "1982-09-27",
     composer: ["Martin Lee Gore"],
@@ -500,7 +500,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Get the Balance Right!",
+    title: "Get the Balance Right!",
     release: [
       "Get the Balance Right!",
       "Construction Time Again (Deluxe)",
@@ -521,7 +521,7 @@ const songs = [
     ],
   },
   {
-    tittle: "The Great Outdoors!",
+    title: "The Great Outdoors!",
     release: [
       "Get the Balance Right!",
       "Construction Time Again (Deluxe)",
@@ -540,7 +540,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Everything Counts",
+    title: "Everything Counts",
     release: [
       "Everything Counts",
       "Remixes 81>04",
@@ -573,7 +573,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Work Hard",
+    title: "Work Hard",
     release: [
       "Everything Counts",
       "Construction Time Again (Deluxe)",
@@ -596,7 +596,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Love in Itself",
+    title: "Love in Itself",
     release: [
       "Love in itself",
       "Construction Time Again",
@@ -621,7 +621,7 @@ const songs = [
     ],
   },
   {
-    tittle: "More Than a Party",
+    title: "More Than a Party",
     release: [
       "Construction Time Again",
       "DMBX3",
@@ -643,7 +643,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Pipeline",
+    title: "Pipeline",
     release: ["Construction Time Again"],
     date: "1983-08-22",
     composer: ["Martin Lee Gore"],
@@ -661,7 +661,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Two Minutes Warning",
+    title: "Two Minutes Warning",
     release: ["Construction Time Again", "Some Great Reward | The 12' Singles"],
     date: "1983-08-22",
     composer: ["Alan Charles Wilder"],
@@ -679,7 +679,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Shame",
+    title: "Shame",
     release: ["Construction Time Again", "Black Celebration | The 12' Singles"],
     date: "1983-08-22",
     composer: ["Martin Lee Gore"],
@@ -697,7 +697,7 @@ const songs = [
     ],
   },
   {
-    tittle: "The Landscape is Changing",
+    title: "The Landscape is Changing",
     release: ["Construction Time Again"],
     date: "1983-08-22",
     composer: ["Alan Charles Wilder"],
@@ -715,7 +715,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Told You So!",
+    title: "Told You So!",
     release: [
       "Construction Time Again",
       "Some Great Reward | The 12' Singles",
@@ -737,7 +737,7 @@ const songs = [
     ],
   },
   {
-    tittle: "And Then...",
+    title: "And Then...",
     release: ["Construction Time Again"],
     date: "1983-08-22",
     composer: ["Martin Lee Gore"],
@@ -755,7 +755,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Fools",
+    title: "Fools",
     release: [
       "Construction Time Again (Deluxe)",
       "Construction Time Again | The 12' Singles",
@@ -777,7 +777,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Love in Itself.4 (The Lounge Version)",
+    title: "Love in Itself.4 (The Lounge Version)",
     release: [
       "Love in itself",
       "Construction Time Again (Deluxe)",
@@ -800,7 +800,7 @@ const songs = [
     ],
   },
   {
-    tittle: "People are People",
+    title: "People are People",
     release: [
       "People are People",
       "Some Great Reward",
@@ -824,7 +824,7 @@ const songs = [
     ],
   },
   {
-    tittle: "In Your Memoryd",
+    title: "In Your Memoryd",
     release: [
       "Construction Time Again (Deluxe)",
       "Construction Time Again | The 12' Singles",
@@ -842,7 +842,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Master and Servant",
+    title: "Master and Servant",
     release: [
       "Master and Servant",
       "Some Great Reward",
@@ -869,7 +869,7 @@ const songs = [
     ],
   },
   {
-    tittle: "(Set Me Free) Remotivate Me",
+    title: "(Set Me Free) Remotivate Me",
     release: [
       "Master and Servant",
       "Some Great Reward (Deluxe)",
@@ -892,7 +892,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Are People People?",
+    title: "Are People People?",
     release: [
       "Master and Servant",
       "Some Great Reward | The 12' Singles",
@@ -914,7 +914,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Something To Do",
+    title: "Something To Do",
     release: [
       "Some Great Reward",
       "101",
@@ -933,7 +933,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Lie To Me",
+    title: "Lie To Me",
     release: ["Some Great Reward", "Remixes 81>04"],
     date: "1984-09-24",
     composer: ["Martin Lee Gore"],
@@ -947,7 +947,7 @@ const songs = [
     ],
   },
   {
-    tittle: "It Doesn't Matter",
+    title: "It Doesn't Matter",
     release: ["Some Great Reward"],
     date: "1984-09-24",
     composer: ["Martin Lee Gore"],
@@ -961,7 +961,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Stories of Old",
+    title: "Stories of Old",
     release: ["Some Great Reward", "Sounds of The Universe (Bonus DVD)"],
     date: "1984-09-24",
     composer: ["Martin Lee Gore"],
@@ -979,7 +979,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Somebody",
+    title: "Somebody",
     release: [
       "Blaphemous Rumours/Somebody",
       "Some Great Reward",
@@ -1003,7 +1003,7 @@ const songs = [
     ],
   },
   {
-    tittle: "If You Want",
+    title: "If You Want",
     release: ["Some Great Reward", "Black Celebration | The 12' Singles"],
     date: "1984-09-24",
     composer: ["Alan Charles Wilder"],
@@ -1021,7 +1021,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Blasphemous Rumours",
+    title: "Blasphemous Rumours",
     release: [
       "Blaphemous Rumours/Somebody",
       "Some Great Reward",
@@ -1047,7 +1047,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Shake the Disease",
+    title: "Shake the Disease",
     release: [
       "Shake the Disease",
       "Black Celebration (Deluxe)",
@@ -1068,7 +1068,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Flexible",
+    title: "Flexible",
     release: ["Shake the Disease", "Black Celebration (Deluxe)", "DMBX3"],
     date: "1985-04-29",
     composer: ["Martin Lee Gore"],
@@ -1082,7 +1082,7 @@ const songs = [
     ],
   },
   {
-    tittle: "It's Called a Heart",
+    title: "It's Called a Heart",
     release: [
       "Shake the Disease",
       "Black Celebration (Deluxe)",
@@ -1105,7 +1105,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Fly on the Windscreen",
+    title: "Fly on the Windscreen",
     release: [
       "Shake the Disease",
       "Black Celebration (Deluxe)",
@@ -1131,7 +1131,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Stripped",
+    title: "Stripped",
     release: [
       "Stripped",
       "Black Celebration",
@@ -1158,7 +1158,7 @@ const songs = [
     ],
   },
   {
-    tittle: "But not Tonight",
+    title: "But not Tonight",
     release: [
       "Stripped",
       "Black Celebration",
@@ -1178,7 +1178,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Breathing in Fumes",
+    title: "Breathing in Fumes",
     release: [
       "Stripped",
       "Black Celebration (Deluxe)",
@@ -1202,7 +1202,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Black Day",
+    title: "Black Day",
     release: [
       "Stripped",
       "Black Celebration (Deluxe)",
@@ -1225,7 +1225,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Black Celebration",
+    title: "Black Celebration",
     release: [
       "Black Celebration",
       "101",
@@ -1249,7 +1249,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Fly on The Windscreen - Final",
+    title: "Fly on The Windscreen - Final",
     release: ["Black Celebration"],
     date: "1986-03-17",
     composer: ["Martin Lee Gore"],
@@ -1263,7 +1263,7 @@ const songs = [
     ],
   },
   {
-    tittle: "A Question of Lust",
+    title: "A Question of Lust",
     release: [
       "Black Celebration",
       "A Question of Lust",
@@ -1294,7 +1294,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Sometimes",
+    title: "Sometimes",
     release: ["Black Celebration"],
     date: "1986-03-17",
     composer: ["Martin Lee Gore"],
@@ -1312,7 +1312,7 @@ const songs = [
     ],
   },
   {
-    tittle: "It Doesn't Matter Two",
+    title: "It Doesn't Matter Two",
     release: [
       "Black Celebration",
       "Black Celebration | The 12' Singles",
@@ -1338,7 +1338,7 @@ const songs = [
     ],
   },
   {
-    tittle: "A Question of Time",
+    title: "A Question of Time",
     release: [
       "Black Celebratio",
       "Live Spirits",
@@ -1365,7 +1365,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Here is The House",
+    title: "Here is The House",
     release: ["Black Celebration"],
     date: "1986-09-03",
     composer: ["Martin Lee Gore"],
@@ -1387,7 +1387,7 @@ const songs = [
     ],
   },
   {
-    tittle: "World Full of Nothing",
+    title: "World Full of Nothing",
     release: ["Black Celebration"],
     date: "1986-09-03",
     composer: ["Martin Lee Gore"],
@@ -1409,7 +1409,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Dressed in Black",
+    title: "Dressed in Black",
     release: ["Black Celebration", "Tour of The Universe"],
     date: "1986-09-03",
     composer: ["Martin Lee Gore"],
@@ -1431,7 +1431,7 @@ const songs = [
     ],
   },
   {
-    tittle: "New Dress",
+    title: "New Dress",
     release: ["Black Celebration"],
     date: "1986-09-03",
     composer: ["Martin Lee Gore"],
@@ -1453,7 +1453,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Christmas Island ",
+    title: "Christmas Island ",
     release: [
       "Black Celebration (Deluxe)",
       "A Question of Lust",
@@ -1472,7 +1472,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Strangelove",
+    title: "Strangelove",
     release: [
       "Strangelove",
       "Music For The Masses",
@@ -1496,7 +1496,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Pimpf",
+    title: "Pimpf",
     release: [
       "Strangelove",
       "Music For The Masses",
@@ -1516,7 +1516,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Agent Orange",
+    title: "Agent Orange",
     release: [
       "Strangelove",
       "Music For The Masses (Deluxe)",
@@ -1535,7 +1535,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Never Let Me Down Again",
+    title: "Never Let Me Down Again",
     release: [
       "Never Let Me Down Again",
       "Music For The Masses",
@@ -1563,7 +1563,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Pleasure Little Treasure",
+    title: "Pleasure Little Treasure",
     release: [
       "Never Let Me Down Again",
       "Music For The Masses (Deluxe)",
@@ -1583,7 +1583,7 @@ const songs = [
     ],
   },
   {
-    tittle: "To Have And To Hold",
+    title: "To Have And To Hold",
     release: [
       "Never Let Me Down Again",
       "Music For The Masses (Deluxe)",
@@ -1602,7 +1602,7 @@ const songs = [
     ],
   },
   {
-    tittle: "The Things You Said",
+    title: "The Things You Said",
     release: ["Music For The Masses", "Live Spirits", "101"],
     date: "1987-09-28",
     composer: ["Martin Lee Gore"],
@@ -1616,7 +1616,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Sacred",
+    title: "Sacred",
     release: ["Music For The Masses", "DMBX4", "101"],
     date: "1987-09-28",
     composer: ["Martin Lee Gore"],
@@ -1634,7 +1634,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Little 15",
+    title: "Little 15",
     release: ["Music For The Masses", "DMBX4", "101"],
     date: "1988-05-16",
     composer: ["Martin Lee Gore"],
@@ -1652,7 +1652,7 @@ const songs = [
     ],
   },
   {
-    tittle: "I Want You Now",
+    title: "I Want You Now",
     release: ["Music For The Masses", "Live Spirits"],
     date: "1987-09-28",
     composer: ["Martin Lee Gore"],
@@ -1666,7 +1666,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Nothing",
+    title: "Nothing",
     release: [
       "Music For The Masses",
       "Strangelove 88",
@@ -1690,7 +1690,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Interlude #1: Mission Impossible",
+    title: "Interlude #1: Mission Impossible",
     release: ["Music For The Masses"],
     date: "1987-09-28",
     composer: ["Martin Lee Gore"],
@@ -1704,7 +1704,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Behind the Wheel",
+    title: "Behind the Wheel",
     release: ["Music For The Masses", "DMBX4", "101"],
     date: "1987-12-28",
     composer: ["Martin Lee Gore"],
@@ -1722,7 +1722,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Route 66",
+    title: "Route 66",
     release: [
       "DMBX4",
       "Music For The Masses (Deluxe)",
@@ -1746,7 +1746,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Stjarna",
+    title: "Stjarna",
     release: [
       "DMBX3",
       "Music For The Masses (Deluxe)",
@@ -1765,7 +1765,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Sonata N° 14 in C#m 'Moonlight Sonata'",
+    title: "Sonata N° 14 in C#m 'Moonlight Sonata'",
     release: [
       "DMBX3",
       "Music For The Masses (Deluxe)",
@@ -1784,7 +1784,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Personal Jesus",
+    title: "Personal Jesus",
     release: [
       "Personal Jesus",
       "Violator",
@@ -1822,7 +1822,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Dangerous",
+    title: "Dangerous",
     release: [
       "Personal Jesus",
       "Violator (Deluxe)",
@@ -1841,7 +1841,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Enjoy The Silence",
+    title: "Enjoy The Silence",
     release: [
       "Enjoy The Silence",
       "Violator",
@@ -1872,7 +1872,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Memphisto",
+    title: "Memphisto",
     release: [
       "Enjoy The Silence",
       "Violator (Deluxe)",
@@ -1891,7 +1891,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Sibeling",
+    title: "Sibeling",
     release: [
       "Enjoy The Silence",
       "Violator (Deluxe)",
@@ -1910,7 +1910,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Sweetest perfection",
+    title: "Sweetest perfection",
     release: [
       "Violator",
       "Remixes 2 81>11 (Deluxe)",
@@ -1932,7 +1932,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Halo",
+    title: "Halo",
     release: [
       "Violator",
       "Remixes 81>04",
@@ -1956,7 +1956,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Waiting for the night",
+    title: "Waiting for the night",
     release: ["Violator", "Playing The Angel (Deluxe)", "Tour of The Universe"],
     date: "1990-03-19",
     composer: ["Martin Lee Gore"],
@@ -1974,7 +1974,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Blue Dress",
+    title: "Blue Dress",
     release: ["Violator"],
     date: "1990-03-19",
     composer: ["Martin Lee Gore"],
@@ -1992,7 +1992,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Clean",
+    title: "Clean",
     release: [
       "Violator",
       "Playing The Angel (Deluxe)",
@@ -2015,7 +2015,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Policy of Truth",
+    title: "Policy of Truth",
     release: [
       "Policy of Truth",
       "Violator",
@@ -2042,7 +2042,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Kaleid",
+    title: "Kaleid",
     release: [
       "Policy of Truth",
       "Violator (Deluxe)",
@@ -2065,7 +2065,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Happiest Girl",
+    title: "Happiest Girl",
     release: [
       "World in My Eyes",
       "Violator (Deluxe)",
@@ -2092,7 +2092,7 @@ const songs = [
     ],
   },
   {
-    tittle: "World in my eyes",
+    title: "World in my eyes",
     release: [
       "World in My Eyes",
       "Violator",
@@ -2121,7 +2121,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Sea of Sin",
+    title: "Sea of Sin",
     release: [
       "World in My Eyes",
       "Violator (Deluxe)",
@@ -2148,7 +2148,7 @@ const songs = [
     ],
   },
   {
-    tittle: "Death’s door",
+    title: "Death’s door",
     release: [
       "Until The End Of The World",
       "Death's Door PROMO",
@@ -2168,7 +2168,7 @@ const songs = [
     ],
   },
   {
-    tittle: "I Feel You",
+    title: "I Feel You",
     release: [
       "I Feel You",
       "Songs of Faith and Devotion (Deluxe)",
@@ -2199,7 +2199,7 @@ const songs = [
     ]
   },
   {
-    tittle: "One Caress",
+    title: "One Caress",
     release: [
       "I Feel You",
       "Songs of Faith and Devotion (Deluxe)",
@@ -2223,7 +2223,7 @@ const songs = [
     ]
   },
   {
-    tittle: "Mercy in You",
+    title: "Mercy in You",
     release: [
       "Songs of Faith and Devotion (Deluxe)",
       "Songs of Faith and Devotion (Live)"
@@ -2248,7 +2248,7 @@ const songs = [
     ]
   },
   {
-    tittle: "Judas",
+    title: "Judas",
     release: [
       "Songs of Faith and Devotion (Deluxe)",
       "Songs of Faith and Devotion (Live)", 
@@ -2270,7 +2270,7 @@ const songs = [
     ]
   },
   {
-    tittle: "Get Right With Me",
+    title: "Get Right With Me",
     release: [
       "Songs of Faith and Devotion (Deluxe)",
       "Songs of Faith and Devotion (Live)"
@@ -2292,7 +2292,7 @@ const songs = [
   },
   ,
   {
-    tittle: "Rush",
+    title: "Rush",
     release: [
       "Songs of Faith and Devotion (Deluxe)",
       "Songs of Faith and Devotion (Live)", 
@@ -2320,7 +2320,7 @@ const songs = [
     ]
   },
   {
-    tittle: "Higher Love",
+    title: "Higher Love",
     release: [
       "Songs of Faith and Devotion (Deluxe)",
       "Songs of Faith and Devotion (Live)", 
@@ -2348,7 +2348,7 @@ const songs = [
     ]
   },
   {
-    tittle: "Walking in My Shoes",
+    title: "Walking in My Shoes",
     release: [
       "Songs of Faith and Devotion (Deluxe)",
       "Songs of Faith and Devotion (Live)",
@@ -2379,7 +2379,7 @@ const songs = [
     ]
   },
   {
-    tittle: "My Joy",
+    title: "My Joy",
     release: [
       "Songs of Faith and Devotion (Deluxe)",
       "Songs of Faith and Devotion | The 12' Singles",
@@ -2401,7 +2401,7 @@ const songs = [
     ]
   },
   {
-    tittle: "Condemnation",
+    title: "Condemnation",
     release: [
       "Condemnation",
       "Songs of Faith and Devotion (Deluxe)",
@@ -2430,7 +2430,7 @@ const songs = [
     ]
   },
   {
-    tittle: "In Your Room",
+    title: "In Your Room",
     release: [
       "In Your Room",
       "Songs of Faith and Devotion (Deluxe)",
@@ -2458,7 +2458,7 @@ const songs = [
     ]
   },
   {
-    tittle: "Barrel of a Gun",
+    title: "Barrel of a Gun",
     release: [
       "Barrel of a Gun",
       "Ultra (Deluxe)",
@@ -2489,7 +2489,7 @@ const songs = [
     ]
   },
   {
-    tittle: "Painkiller",
+    title: "Painkiller",
     release: [
       "Barrel of a Gun",
       "Ultra (Deluxe)",
@@ -2517,7 +2517,7 @@ const songs = [
     ]
   },
   {
-    tittle: "It's no Good",
+    title: "It's no Good",
     release: [
       "It's no Good",
       "Ultra (Deluxe)",
@@ -2549,7 +2549,7 @@ const songs = [
     ]
   },
   {
-    tittle: "Slowblow",
+    title: "Slowblow",
     release: [
       "It's no Good",
       "Ultra (Deluxe)",
@@ -2569,7 +2569,7 @@ const songs = [
     ]
   },
   {
-    tittle: "The Love Thieves",
+    title: "The Love Thieves",
     release: [
       "Ultra (Deluxe)"
     ],
@@ -2593,7 +2593,7 @@ const songs = [
     ]
   },
   {
-    tittle: "Uselink",
+    title: "Uselink",
     release: [
       "Ultra (Deluxe)"
     ],
@@ -2609,7 +2609,7 @@ const songs = [
     ]
   },
   {
-    tittle: "Sister of Night",
+    title: "Sister of Night",
     release: [
       "Ultra (Deluxe)",
       "Remixes 2 81>11 (Deluxe)"
@@ -2634,7 +2634,7 @@ const songs = [
     ]
   },
   {
-    tittle: "Jazz Thieves",
+    title: "Jazz Thieves",
     release: [
       "Ultra (Deluxe)"
     ],
@@ -2658,7 +2658,7 @@ const songs = [
     ]
   },
   {
-    tittle: "Freestate",
+    title: "Freestate",
     release: [
       "Ultra (Deluxe)",
       "Remixes 2 81>11 (Deluxe)"
@@ -2683,7 +2683,7 @@ const songs = [
     ]
   },
   {
-    tittle: "The Bottom Line",
+    title: "The Bottom Line",
     release: [
       "Ultra (Deluxe)"
     ],
@@ -2707,7 +2707,7 @@ const songs = [
     ]
   },
   {
-    tittle: "Insight",
+    title: "Insight",
     release: [
       "Ultra (Deluxe)"
     ],
@@ -2731,7 +2731,7 @@ const songs = [
     ]
   },
   {
-    tittle: "Home",
+    title: "Home",
     release: [
       "Home",
       "Ultra (Deluxe)",
@@ -2765,7 +2765,7 @@ const songs = [
     ]
   },
   {
-    tittle: "Useless",
+    title: "Useless",
     release: [
       "Useless",
       "Ultra (Deluxe)",
@@ -2795,7 +2795,7 @@ const songs = [
     ]
   },
   {
-    tittle: "Only When I Lose Myself",
+    title: "Only When I Lose Myself",
     release: [
       "Only When I Lose Myself",
       "Ultra (Deluxe)",
@@ -2820,7 +2820,7 @@ const songs = [
     ]
   },
   {
-    tittle: "Surrender",
+    title: "Surrender",
     release: [
       "Only When I Lose Myself",
       "Ultra (Deluxe)",
@@ -2843,7 +2843,7 @@ const songs = [
     ]
   },
   {
-    tittle: "Headstar",
+    title: "Headstar",
     release: [
       "Only When I Lose Myself",
       "Ultra (Deluxe)",
@@ -2865,7 +2865,7 @@ const songs = [
     ]
   },
   {
-    tittle: "Dream On",
+    title: "Dream On",
     release: [
       "Dream On",
       "Exciter (Deluxe)",

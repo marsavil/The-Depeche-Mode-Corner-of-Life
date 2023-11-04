@@ -3,7 +3,7 @@ import dotenv from 'dotenv'
 import bodyParser from 'body-parser'
 import cors from 'cors'
 import logger from 'morgan'
-import router from './routes/index'
+import router from './src/routes/index'
 
 dotenv.config()
 

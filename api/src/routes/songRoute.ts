@@ -1,16 +1,16 @@
 import { Router } from 'express'
-import { getSong, getSongs, getSongsByTittle, getSongsByAlbum, getSongsByProducer, getSongTittles, getSongByFavourite, addSongToFavs } from '../controllers/songsController'
+import { getSong, getSongs, getSongsByTitle, getSongsByAlbum, getSongsByProducer, getSongTitles, getTopFavourite, addSongToFavs } from '../controllers/songsController'
 
 
 const router = Router()
 
-router.get('/top', getSongByFavourite);
+router.get('/top/:rank', getTopFavourite);
 router.get('/', getSongs);
 router.get('/:id', getSong);
-router.get('/tittle/:tittle', getSongsByTittle);
+router.get('/title/:title', getSongsByTitle);
 router.get('/album/:album', getSongsByAlbum);
 router.get('/producer/:producer', getSongsByProducer);
-router.get('/all/tittles', getSongTittles);
+router.get('/all/titles', getSongTitles);
 router.put('/add/favourite', addSongToFavs);
 
 

@@ -1,5 +1,5 @@
-{
-  "dreaming of me": {
+[
+  {
     "title": "Dreaming of me",
     "release": [
       "Dreaming of me",
@@ -19,8 +19,8 @@
       }
     ]
   },
-  "ice machine": {
-    "tittle": "Ice Machine",
+  {
+    "title": "Ice Machine",
     "release": [
       "Dreaming of me",
       "Speak and Spell (Deluxe)",
@@ -39,7 +39,7 @@
       }
     ]
   },
-  "new life": {
+  {
     "title": "New Life",
     "release": [
       "New Life",
@@ -62,7 +62,7 @@
       }
     ]
   },
-  "shout": {
+  {
     "title": "Shout",
     "release": [
       "New Life",
@@ -84,8 +84,8 @@
       }
     ]
   },
-  "just can't get enough": {
-    "tittle": "Just Can't Get Enough",
+  {
+    "title": "Just Can't Get Enough",
     "release": [
       "Just Can't Get Enough",
       "Speak and Spell",
@@ -110,8 +110,8 @@
       }
     ]
   },
-  "any second now": {
-    "tittle": "Any Second Now",
+  {
+    "title": "Any Second Now",
     "release": [
       "Just Can't Get Enough",
       "Speak and Spell",
@@ -129,8 +129,8 @@
       }
     ]
   },
-  "i sometimes wish i was dead": {
-    "tittle": "I Sometimes Wish I Was Dead",
+  {
+    "title": "I Sometimes Wish I Was Dead",
     "release": ["Speak and Spell", "Speak and Spell | The 12' Singles"],
     "date": "1981-10-05",
     "composer": ["Vince Clarke"],
@@ -143,8 +143,8 @@
       }
     ]
   },
-  "puppets": {
-    "tittle": "Puppets",
+  {
+    "title": "Puppets",
     "release": ["Speak and Spell", "Remixes 2 81>11"],
     "date": "1981-10-05",
     "composer": ["Vince Clarke"],
@@ -157,51 +157,56 @@
       }
     ]
   },
-  "boys say go!": {
-    "tittle": "Boys Say Go!",
-    "release": ["Speak and Spell", "Construction Time Again | The 12' Singles", "Everything Counts and Live Tracks"],
-    "date": "1981-10-05",
-    "composer": ["Vince Clarke"],
-    "producer": ["Daniel Miller", "Depeche Mode"],
-    "engineer": ["Eric Radcliffe", "John Fryer"],
-    "studio": [
-      {
-        "name": "Blackwing Studios",
-        "location": "London, England"
-      }
-    ]
-  },
-  "nodisco": {
-    "tittle": "Nodisco",
-    "release": ["Speak and Spell"],
-    "date": "1981-10-05",
-    "composer": ["Vince Clarke"],
-    "producer": ["Daniel Miller", "Depeche Mode"],
-    "engineer": ["Eric Radcliffe", "John Fryer"],
-    "studio": [
-      {
-        "name": "Blackwing Studios",
-        "location": "London, England"
-      }
-    ]
-  },
-  "what's your name": {
-    "tittle": "What's Your Name",
-    "release": ["Speak and Spell"],
-    "date": "1981-10-05",
-    "composer": ["Vince Clarke"],
-    "producer": ["Daniel Miller", "Depeche Mode"],
-    "engineer": ["Eric Radcliffe", "John Fryer"],
-    "studio": [
-      {
-        "name": "Blackwing Studios",
-        "location": "London, England"
-      }
-    ]
-  },
-  "photographic": {
-    "tittle": "Photographic",
+  {
+    "title": "Boys Say Go!",
     "release": [
+      "Speak and Spell",
+      "Construction Time Again | The 12' Singles",
+      "Everything Counts and Live Tracks"
+    ],
+    "date": "1981-10-05",
+    "composer": ["Vince Clarke"],
+    "producer": ["Daniel Miller", "Depeche Mode"],
+    "engineer": ["Eric Radcliffe", "John Fryer"],
+    "studio": [
+      {
+        "name": "Blackwing Studios",
+        "location": "London, England"
+      }
+    ]
+  },
+  {
+    "title": "Nodisco",
+    "release": ["Speak and Spell"],
+    "date": "1981-10-05",
+    "composer": ["Vince Clarke"],
+    "producer": ["Daniel Miller", "Depeche Mode"],
+    "engineer": ["Eric Radcliffe", "John Fryer"],
+    "studio": [
+      {
+        "name": "Blackwing Studios",
+        "location": "London, England"
+      }
+    ]
+  },
+  {
+    "title": "What's Your Name",
+    "release": ["Speak and Spell"],
+    "date": "1981-10-05",
+    "composer": ["Vince Clarke"],
+    "producer": ["Daniel Miller", "Depeche Mode"],
+    "engineer": ["Eric Radcliffe", "John Fryer"],
+    "studio": [
+      {
+        "name": "Blackwing Studios",
+        "location": "London, England"
+      }
+    ]
+  },
+  {
+    "title": "Photographic",
+    "release": [
+      "Some Bizarre",
       "Speak and Spell",
       "The Singles 81>85",
       "Remixes 81>04",
@@ -219,8 +224,8 @@
       }
     ]
   },
-  "tora! tora! tora!": {
-    "tittle": "Tora! Tora! Tora!",
+  {
+    "title": "Tora! Tora! Tora!",
     "release": [
       "Speak and Spell",
       "Remixes 2 81>11",
@@ -238,8 +243,8 @@
       }
     ]
   },
-  "big muff": {
-    "tittle": "Big Muff",
+  {
+    "title": "Big Muff",
     "release": ["Speak and Spell"],
     "date": "1981-10-05",
     "composer": ["Martin Lee Gore"],
@@ -252,8 +257,8 @@
       }
     ]
   },
-  "see you": {
-    "tittle": "See You",
+  {
+    "title": "See You",
     "release": [
       "See You",
       "A Broken Frame",
@@ -274,8 +279,8 @@
       }
     ]
   },
-  "now, this is fun": {
-    "tittle": "Now, This is Fun",
+  {
+    "title": "Now, This is Fun",
     "release": [
       "See You",
       "A Broken Frame (Deluxe)",
@@ -293,8 +298,8 @@
       }
     ]
   },
-  "the meaning of love": {
-    "tittle": "The Meaning of Love",
+  {
+    "title": "The Meaning of Love",
     "release": [
       "The Meaning of Love",
       "A Broken Frame",
@@ -315,8 +320,8 @@
       }
     ]
   },
-  "oberkorn": {
-    "tittle": "Oberkorn(It's a Small Town)",
+  {
+    "title": "Oberkorn(It's a Small Town)",
     "release": [
       "The Meaning of Love",
       "A Broken Frame (Deluxe)",
@@ -334,8 +339,8 @@
       }
     ]
   },
-  "leave in silence": {
-    "tittle": "Leave in Silence",
+  {
+    "title": "Leave in Silence",
     "release": [
       "Leave in Silence",
       "A Broken Frame",
@@ -355,8 +360,8 @@
       }
     ]
   },
-  "excerpt from my secret garder": {
-    "tittle": "Excerpt From My Secret Garden",
+  {
+    "title": "Excerpt From My Secret Garden",
     "release": [
       "Leave in Silence",
       "A Broken Frame (Deluxe)",
@@ -374,8 +379,8 @@
       }
     ]
   },
-  "further excerpt from my secret garder": {
-    "tittle": "Further Excerpt From My Secret Garden",
+  {
+    "title": "Further Excerpt From My Secret Garden",
     "release": [
       "Leave in Silence",
       "A Broken Frame | The 12' Singles",
@@ -392,8 +397,8 @@
       }
     ]
   },
-  "my secret garden": {
-    "tittle": "My Secret Garden",
+  {
+    "title": "My Secret Garden",
     "release": ["A Broken Frame", "Construction Time Again | The 12' Singles"],
     "date": "1982-09-27",
     "composer": ["Martin Lee Gore"],
@@ -406,8 +411,8 @@
       }
     ]
   },
-  "monument": {
-    "tittle": "Monument",
+  {
+    "title": "Monument",
     "release": ["A Broken Frame"],
     "date": "1982-09-27",
     "composer": ["Martin Lee Gore"],
@@ -420,9 +425,13 @@
       }
     ]
   },
-  "nothing to fear": {
-    "tittle": "Nothing to Fear",
-    "release": ["A Broken Frame", "Construction Time Again | The 12' Singles", "Everything Counts and Live Tracks"],
+  {
+    "title": "Nothing to Fear",
+    "release": [
+      "A Broken Frame",
+      "Construction Time Again | The 12' Singles",
+      "Everything Counts and Live Tracks"
+    ],
     "date": "1982-09-27",
     "composer": ["Martin Lee Gore"],
     "producer": ["Daniel Miller", "Depeche Mode"],
@@ -434,8 +443,8 @@
       }
     ]
   },
-  "satellite": {
-    "tittle": "Satellite",
+  {
+    "title": "Satellite",
     "release": ["A Broken Frame", "Construction Time Again | The 12' Singles"],
     "date": "1982-09-27",
     "composer": ["Martin Lee Gore"],
@@ -448,8 +457,8 @@
       }
     ]
   },
-  "a photograph of you": {
-    "tittle": "A Photograph of You",
+  {
+    "title": "A Photograph of You",
     "release": [
       "A Broken Frame",
       "Construction Time Again | The 12' Singles",
@@ -466,8 +475,8 @@
       }
     ]
   },
-  "shouldn't have done that": {
-    "tittle": "Shouldn't Have Done That",
+  {
+    "title": "Shouldn't Have Done That",
     "release": ["A Broken Frame"],
     "date": "1982-09-27",
     "composer": ["Martin Lee Gore"],
@@ -480,8 +489,8 @@
       }
     ]
   },
-  "the sun and the rainfall": {
-    "tittle": "The Sun and the Rainfall",
+  {
+    "title": "The Sun and the Rainfall",
     "release": ["A Broken Frame"],
     "date": "1982-09-27",
     "composer": ["Martin Lee Gore"],
@@ -494,8 +503,8 @@
       }
     ]
   },
-  "get the balance right": {
-    "tittle": "Get the Balance Right!",
+  {
+    "title": "Get the Balance Right!",
     "release": [
       "Get the Balance Right!",
       "Construction Time Again (Deluxe)",
@@ -515,8 +524,8 @@
       }
     ]
   },
-  "the great oudoors": {
-    "tittle": "The Great Outdoors!",
+  {
+    "title": "The Great Outdoors!",
     "release": [
       "Get the Balance Right!",
       "Construction Time Again (Deluxe)",
@@ -534,8 +543,8 @@
       }
     ]
   },
-  "everything counts": {
-    "tittle": "Everything Counts",
+  {
+    "title": "Everything Counts",
     "release": [
       "Everything Counts",
       "Remixes 81>04",
@@ -567,8 +576,8 @@
       }
     ]
   },
-  "work hard": {
-    "tittle": "Work Hard",
+  {
+    "title": "Work Hard",
     "release": [
       "Everything Counts",
       "Construction Time Again (Deluxe)",
@@ -590,8 +599,8 @@
       }
     ]
   },
-  "love in itself": {
-    "tittle": "Love in Itself",
+  {
+    "title": "Love in Itself",
     "release": [
       "Love in itself",
       "Construction Time Again",
@@ -615,8 +624,8 @@
       }
     ]
   },
-  "more than a party": {
-    "tittle": "More Than a Party",
+  {
+    "title": "More Than a Party",
     "release": [
       "Construction Time Again",
       "DMBX3",
@@ -637,11 +646,9 @@
       }
     ]
   },
-  "pipeline": {
-    "tittle": "Pipeline",
-    "release": [
-      "Construction Time Again"
-    ],
+  {
+    "title": "Pipeline",
+    "release": ["Construction Time Again"],
     "date": "1983-08-22",
     "composer": ["Martin Lee Gore"],
     "producer": ["Daniel Miller", "Depeche Mode"],
@@ -657,8 +664,8 @@
       }
     ]
   },
-  "two minutes warning": {
-    "tittle": "Two Minutes Warning",
+  {
+    "title": "Two Minutes Warning",
     "release": [
       "Construction Time Again",
       "Some Great Reward | The 12' Singles"
@@ -678,8 +685,8 @@
       }
     ]
   },
-  "shame": {
-    "tittle": "Shame",
+  {
+    "title": "Shame",
     "release": [
       "Construction Time Again",
       "Black Celebration | The 12' Singles"
@@ -699,11 +706,9 @@
       }
     ]
   },
-  "the landscape is changing": {
-    "tittle": "The Landscape is Changing",
-    "release": [
-      "Construction Time Again"
-    ],
+  {
+    "title": "The Landscape is Changing",
+    "release": ["Construction Time Again"],
     "date": "1983-08-22",
     "composer": ["Alan Charles Wilder"],
     "producer": ["Daniel Miller", "Depeche Mode"],
@@ -719,11 +724,12 @@
       }
     ]
   },
-  "told you so": {
-    "tittle": "Told You So!",
+  {
+    "title": "Told You So!",
     "release": [
       "Construction Time Again",
-      "Some Great Reward | The 12' Singles", "DMBX2"
+      "Some Great Reward | The 12' Singles",
+      "DMBX2"
     ],
     "date": "1983-08-22",
     "composer": ["Martin Lee Gore"],
@@ -740,11 +746,9 @@
       }
     ]
   },
-  "and then": {
-    "tittle": "And Then...",
-    "release": [
-      "Construction Time Again"
-    ],
+  {
+    "title": "And Then...",
+    "release": ["Construction Time Again"],
     "date": "1983-08-22",
     "composer": ["Martin Lee Gore"],
     "producer": ["Daniel Miller", "Depeche Mode"],
@@ -760,8 +764,8 @@
       }
     ]
   },
-  "fools": {
-    "tittle": "Fools",
+  {
+    "title": "Fools",
     "release": [
       "Construction Time Again (Deluxe)",
       "Construction Time Again | The 12' Singles",
@@ -782,8 +786,8 @@
       }
     ]
   },
-  "love in itself4": {
-    "tittle": "Love in Itself.4 (The Lounge Version)",
+  {
+    "title": "Love in Itself.4 (The Lounge Version)",
     "release": [
       "Love in itself",
       "Construction Time Again (Deluxe)",
@@ -805,8 +809,8 @@
       }
     ]
   },
-  "people are people": {
-    "tittle": "People are People",
+  {
+    "title": "People are People",
     "release": [
       "People are People",
       "Some Great Reward",
@@ -829,8 +833,8 @@
       }
     ]
   },
-  "in your memory": {
-    "tittle": "In Your Memoryd",
+  {
+    "title": "In Your Memoryd",
     "release": [
       "Construction Time Again (Deluxe)",
       "Construction Time Again | The 12' Singles",
@@ -847,8 +851,8 @@
       }
     ]
   },
-  "master and servant": {
-    "tittle": "Master and Servant",
+  {
+    "title": "Master and Servant",
     "release": [
       "Master and Servant",
       "Some Great Reward",
@@ -874,8 +878,8 @@
       }
     ]
   },
-  "set me free": {
-    "tittle": "(Set Me Free) Remotivate Me",
+  {
+    "title": "(Set Me Free) Remotivate Me",
     "release": [
       "Master and Servant",
       "Some Great Reward (Deluxe)",
@@ -897,8 +901,8 @@
       }
     ]
   },
-  "are people people": {
-    "tittle": "Are People People?",
+  {
+    "title": "Are People People?",
     "release": [
       "Master and Servant",
       "Some Great Reward | The 12' Singles",
@@ -919,8 +923,8 @@
       }
     ]
   },
-  "something to do": {
-    "tittle": "Something To Do",
+  {
+    "title": "Something To Do",
     "release": [
       "Some Great Reward",
       "101",
@@ -938,12 +942,9 @@
       }
     ]
   },
-  "lie to me": {
-    "tittle": "Lie To Me",
-    "release": [
-      "Some Great Reward",
-      "Remixes 81>04"
-    ],
+  {
+    "title": "Lie To Me",
+    "release": ["Some Great Reward", "Remixes 81>04"],
     "date": "1984-09-24",
     "composer": ["Martin Lee Gore"],
     "producer": ["Daniel Miller", "Depeche Mode", "Gareth Jones"],
@@ -955,11 +956,9 @@
       }
     ]
   },
-  "it doesn't matter": {
-    "tittle": "It Doesn't Matter",
-    "release": [
-      "Some Great Reward"
-    ],
+  {
+    "title": "It Doesn't Matter",
+    "release": ["Some Great Reward"],
     "date": "1984-09-24",
     "composer": ["Martin Lee Gore"],
     "producer": ["Daniel Miller", "Depeche Mode", "Gareth Jones"],
@@ -971,12 +970,9 @@
       }
     ]
   },
-  "stories of old": {
-    "tittle": "Stories of Old",
-    "release": [
-      "Some Great Reward",
-      "Sounds of The Universe (Bonus DVD)"
-    ],
+  {
+    "title": "Stories of Old",
+    "release": ["Some Great Reward", "Sounds of The Universe (Bonus DVD)"],
     "date": "1984-09-24",
     "composer": ["Martin Lee Gore"],
     "producer": ["Daniel Miller", "Depeche Mode", "Gareth Jones"],
@@ -992,8 +988,8 @@
       }
     ]
   },
-  "somebody": {
-    "tittle": "Somebody",
+  {
+    "title": "Somebody",
     "release": [
       "Blaphemous Rumours/Somebody",
       "Some Great Reward",
@@ -1016,12 +1012,9 @@
       }
     ]
   },
-  "if you want": {
-    "tittle": "If You Want",
-    "release": [
-      "Some Great Reward",
-      "Black Celebration | The 12' Singles"
-    ],
+  {
+    "title": "If You Want",
+    "release": ["Some Great Reward", "Black Celebration | The 12' Singles"],
     "date": "1984-09-24",
     "composer": ["Alan Charles Wilder"],
     "producer": ["Daniel Miller", "Depeche Mode", "Gareth Jones"],
@@ -1037,8 +1030,8 @@
       }
     ]
   },
-  "blasphemous rumours": {
-    "tittle": "Blasphemous Rumours",
+  {
+    "title": "Blasphemous Rumours",
     "release": [
       "Blaphemous Rumours/Somebody",
       "Some Great Reward",
@@ -1063,8 +1056,8 @@
       }
     ]
   },
-  "shake the disease": {
-    "tittle": "Shake the Disease",
+  {
+    "title": "Shake the Disease",
     "release": [
       "Shake the Disease",
       "Black Celebration (Deluxe)",
@@ -1084,13 +1077,9 @@
       }
     ]
   },
-  "flexible": {
-    "tittle": "Flexible",
-    "release": [
-      "Shake the Disease",
-      "Black Celebration (Deluxe)",
-      "DMBX3"
-    ],
+  {
+    "title": "Flexible",
+    "release": ["Shake the Disease", "Black Celebration (Deluxe)", "DMBX3"],
     "date": "1985-04-29",
     "composer": ["Martin Lee Gore"],
     "producer": ["Daniel Miller", "Depeche Mode", "Gareth Jones"],
@@ -1102,8 +1091,8 @@
       }
     ]
   },
-  "it's called a heart": {
-    "tittle": "It's Called a Heart",
+  {
+    "title": "It's Called a Heart",
     "release": [
       "Shake the Disease",
       "Black Celebration (Deluxe)",
@@ -1125,8 +1114,8 @@
       }
     ]
   },
-  "fly on the windscreen": {
-    "tittle": "Fly on the Windscreen",
+  {
+    "title": "Fly on the Windscreen",
     "release": [
       "Shake the Disease",
       "Black Celebration (Deluxe)",
@@ -1135,7 +1124,6 @@
       "Songs of Faith and Devotion | The 12' Singles",
       "DMBX3",
       "DMBX5"
-    
     ],
     "date": "1985-09-16",
     "composer": ["Martin Lee Gore"],
@@ -1152,8 +1140,8 @@
       }
     ]
   },
-  "stripped": {
-    "tittle": "Stripped",
+  {
+    "title": "Stripped",
     "release": [
       "Stripped",
       "Black Celebration",
@@ -1179,8 +1167,8 @@
       }
     ]
   },
-  "but not tonight": {
-    "tittle": "But not Tonight",
+  {
+    "title": "But not Tonight",
     "release": [
       "Stripped",
       "Black Celebration",
@@ -1199,8 +1187,8 @@
       }
     ]
   },
-  "breathing in fumes": {
-    "tittle": "Breathing in Fumes",
+  {
+    "title": "Breathing in Fumes",
     "release": [
       "Stripped",
       "Black Celebration (Deluxe)",
@@ -1223,8 +1211,8 @@
       }
     ]
   },
-  "black day": {
-    "tittle": "Black Day",
+  {
+    "title": "Black Day",
     "release": [
       "Stripped",
       "Black Celebration (Deluxe)",
@@ -1246,8 +1234,8 @@
       }
     ]
   },
-  "black celebration": {
-    "tittle": "Black Celebration",
+  {
+    "title": "Black Celebration",
     "release": [
       "Black Celebration",
       "101",
@@ -1270,11 +1258,9 @@
       }
     ]
   },
-  "fly on the windscreen final": {
-    "tittle": "Fly on The Windscreen - Final",
-    "release": [
-      "Black Celebration"
-    ],
+  {
+    "title": "Fly on The Windscreen - Final",
+    "release": ["Black Celebration"],
     "date": "1986-03-17",
     "composer": ["Martin Lee Gore"],
     "producer": ["Daniel Miller", "Depeche Mode", "Gareth Jones"],
@@ -1286,8 +1272,8 @@
       }
     ]
   },
-  "a question of lust": {
-    "tittle": "A Question of Lust",
+  {
+    "title": "A Question of Lust",
     "release": [
       "Black Celebration",
       "A Question of Lust",
@@ -1317,11 +1303,9 @@
       }
     ]
   },
-  "sometimes": {
-    "tittle": "Sometimes",
-    "release": [
-      "Black Celebration"
-    ],
+  {
+    "title": "Sometimes",
+    "release": ["Black Celebration"],
     "date": "1986-03-17",
     "composer": ["Martin Lee Gore"],
     "producer": ["Daniel Miller", "Depeche Mode", "Gareth Jones"],
@@ -1337,8 +1321,8 @@
       }
     ]
   },
-  "it doesn't matter two": {
-    "tittle": "It Doesn't Matter Two",
+  {
+    "title": "It Doesn't Matter Two",
     "release": [
       "Black Celebration",
       "Black Celebration | The 12' Singles",
@@ -1363,8 +1347,8 @@
       }
     ]
   },
-  "a question of time": {
-    "tittle": "A Question of Time",
+  {
+    "title": "A Question of Time",
     "release": [
       "Black Celebratio",
       "LiVE SPiRiTS",
@@ -1390,15 +1374,13 @@
       }
     ]
   },
-  "here is the house": {
-    "tittle": "Here is The House",
-    "release": [
-      "Black Celebration"
-    ],
+  {
+    "title": "Here is The House",
+    "release": ["Black Celebration"],
     "date": "1986-09-03",
     "composer": ["Martin Lee Gore"],
     "producer": ["Daniel Miller", "Depeche Mode", "Gareth Jones"],
-    "engineer": [ "Richard Sullivan", "Peter Schmidt"],
+    "engineer": ["Richard Sullivan", "Peter Schmidt"],
     "studio": [
       {
         "name": "Worlwide Studios",
@@ -1414,15 +1396,13 @@
       }
     ]
   },
-  "world full of nothing": {
-    "tittle": "World Full of Nothing",
-    "release": [
-      "Black Celebration"
-    ],
+  {
+    "title": "World Full of Nothing",
+    "release": ["Black Celebration"],
     "date": "1986-09-03",
     "composer": ["Martin Lee Gore"],
     "producer": ["Daniel Miller", "Depeche Mode", "Gareth Jones"],
-    "engineer": [ "Richard Sullivan", "Peter Schmidt"],
+    "engineer": ["Richard Sullivan", "Peter Schmidt"],
     "studio": [
       {
         "name": "Worlwide Studios",
@@ -1438,16 +1418,13 @@
       }
     ]
   },
-  "dressed in black": {
-    "tittle": "Dressed in Black",
-    "release": [
-      "Black Celebration",
-      "Tour of The Universe"
-    ],
+  {
+    "title": "Dressed in Black",
+    "release": ["Black Celebration", "Tour of The Universe"],
     "date": "1986-09-03",
     "composer": ["Martin Lee Gore"],
     "producer": ["Daniel Miller", "Depeche Mode", "Gareth Jones"],
-    "engineer": [ "Richard Sullivan", "Peter Schmidt"],
+    "engineer": ["Richard Sullivan", "Peter Schmidt"],
     "studio": [
       {
         "name": "Worlwide Studios",
@@ -1463,15 +1440,13 @@
       }
     ]
   },
-  "new dress": {
-    "tittle": "New Dress",
-    "release": [
-      "Black Celebration"
-    ],
+  {
+    "title": "New Dress",
+    "release": ["Black Celebration"],
     "date": "1986-09-03",
     "composer": ["Martin Lee Gore"],
     "producer": ["Daniel Miller", "Depeche Mode", "Gareth Jones"],
-    "engineer": [ "Richard Sullivan", "Peter Schmidt"],
+    "engineer": ["Richard Sullivan", "Peter Schmidt"],
     "studio": [
       {
         "name": "Worlwide Studios",
@@ -1487,8 +1462,8 @@
       }
     ]
   },
-  "christmas island": {
-    "tittle": "Christmas Island ",
+  {
+    "title": "Christmas Island ",
     "release": [
       "Black Celebration (Deluxe)",
       "A Question of Lust",
@@ -1498,7 +1473,7 @@
     "date": "1986-04-14",
     "composer": ["Martin Lee Gore", "Alan Charles Wilder"],
     "producer": ["Daniel Miller", "Depeche Mode", "Gareth Jones"],
-    "engineer": [ "Trigger"],
+    "engineer": ["Trigger"],
     "studio": [
       {
         "name": "Trident Studios",
@@ -1506,8 +1481,8 @@
       }
     ]
   },
-  "strangelove": {
-    "tittle": "Strangelove",
+  {
+    "title": "Strangelove",
     "release": [
       "Strangelove",
       "Music For The Masses",
@@ -1522,7 +1497,7 @@
     "date": "1987-04-13",
     "composer": ["Martin Lee Gore"],
     "producer": ["Dave Bascombe", "Depeche Mode"],
-    "engineer": [ "Dave Bascombe"],
+    "engineer": ["Dave Bascombe"],
     "studio": [
       {
         "name": "Guillaume Tell",
@@ -1530,8 +1505,8 @@
       }
     ]
   },
-  "pimpf": {
-    "tittle": "Pimpf",
+  {
+    "title": "Pimpf",
     "release": [
       "Strangelove",
       "Music For The Masses",
@@ -1542,7 +1517,7 @@
     "date": "1987-04-13",
     "composer": ["Martin Lee Gore"],
     "producer": ["Dave Bascombe", "Depeche Mode"],
-    "engineer": [ "Dave Bascombe"],
+    "engineer": ["Dave Bascombe"],
     "studio": [
       {
         "name": "Guillaume Tell",
@@ -1550,8 +1525,8 @@
       }
     ]
   },
-  "agent orange": {
-    "tittle": "Agent Orange",
+  {
+    "title": "Agent Orange",
     "release": [
       "Strangelove",
       "Music For The Masses (Deluxe)",
@@ -1561,7 +1536,7 @@
     "date": "1987-04-13",
     "composer": ["Martin Lee Gore"],
     "producer": ["Dave Bascombe", "Depeche Mode"],
-    "engineer": [ "Dave Bascombe"],
+    "engineer": ["Dave Bascombe"],
     "studio": [
       {
         "name": "Guillaume Tell",
@@ -1569,8 +1544,8 @@
       }
     ]
   },
-  "never let me down again": {
-    "tittle": "Never Let Me Down Again",
+  {
+    "title": "Never Let Me Down Again",
     "release": [
       "Never Let Me Down Again",
       "Music For The Masses",
@@ -1589,7 +1564,7 @@
     "date": "1987-08-24",
     "composer": ["Martin Lee Gore"],
     "producer": ["Dave Bascombe", "Depeche Mode", "Daniel Miller"],
-    "engineer": [ "Dave Bascombe"],
+    "engineer": ["Dave Bascombe"],
     "studio": [
       {
         "name": "Konk",
@@ -1597,8 +1572,8 @@
       }
     ]
   },
-  "pleasure little treasure": {
-    "tittle": "Pleasure Little Treasure",
+  {
+    "title": "Pleasure Little Treasure",
     "release": [
       "Never Let Me Down Again",
       "Music For The Masses (Deluxe)",
@@ -1609,7 +1584,7 @@
     "date": "1987-08-24",
     "composer": ["Martin Lee Gore"],
     "producer": ["Dave Bascombe", "Depeche Mode"],
-    "engineer": [ "Dave Bascombe"],
+    "engineer": ["Dave Bascombe"],
     "studio": [
       {
         "name": "Konk",
@@ -1617,8 +1592,8 @@
       }
     ]
   },
-  "to have and to hold": {
-    "tittle": "To Have And To Hold",
+  {
+    "title": "To Have And To Hold",
     "release": [
       "Never Let Me Down Again",
       "Music For The Masses (Deluxe)",
@@ -1628,7 +1603,7 @@
     "date": "1987-08-24",
     "composer": ["Martin Lee Gore"],
     "producer": ["Dave Bascombe", "Depeche Mode"],
-    "engineer": [ "Dave Bascombe"],
+    "engineer": ["Dave Bascombe"],
     "studio": [
       {
         "name": "Konk",
@@ -1636,17 +1611,13 @@
       }
     ]
   },
-  "the things you said": {
-    "tittle": "The Things You Said",
-    "release": [
-      "Music For The Masses",
-      "LiVE SPiRiTS",
-      "101"
-    ],
+  {
+    "title": "The Things You Said",
+    "release": ["Music For The Masses", "LiVE SPiRiTS", "101"],
     "date": "1987-09-28",
     "composer": ["Martin Lee Gore"],
     "producer": ["Dave Bascombe", "Depeche Mode", "Daniel Miller"],
-    "engineer": [ "Dave Bascombe"],
+    "engineer": ["Dave Bascombe"],
     "studio": [
       {
         "name": "Konk",
@@ -1654,17 +1625,13 @@
       }
     ]
   },
-  "sacred": {
-    "tittle": "Sacred",
-    "release": [
-      "Music For The Masses",
-      "DMBX4",
-      "101"
-    ],
+  {
+    "title": "Sacred",
+    "release": ["Music For The Masses", "DMBX4", "101"],
     "date": "1987-09-28",
     "composer": ["Martin Lee Gore"],
     "producer": ["Dave Bascombe", "Depeche Mode"],
-    "engineer": [ "Dave Bascombe"],
+    "engineer": ["Dave Bascombe"],
     "studio": [
       {
         "name": "Guillaume Tell",
@@ -1676,17 +1643,13 @@
       }
     ]
   },
-  "little 15": {
-    "tittle": "Little 15",
-    "release": [
-      "Music For The Masses",
-      "DMBX4",
-      "101"
-    ],
+  {
+    "title": "Little 15",
+    "release": ["Music For The Masses", "DMBX4", "101"],
     "date": "1988-05-16",
     "composer": ["Martin Lee Gore"],
     "producer": ["Dave Bascombe", "Depeche Mode"],
-    "engineer": [ "Dave Bascombe"],
+    "engineer": ["Dave Bascombe"],
     "studio": [
       {
         "name": "Konk",
@@ -1698,16 +1661,13 @@
       }
     ]
   },
-  "i want you now": {
-    "tittle": "I Want You Now",
-    "release": [
-      "Music For The Masses",
-      "LiVE SPiRiTS"
-    ],
+  {
+    "title": "I Want You Now",
+    "release": ["Music For The Masses", "LiVE SPiRiTS"],
     "date": "1987-09-28",
     "composer": ["Martin Lee Gore"],
     "producer": ["Dave Bascombe", "Depeche Mode"],
-    "engineer": [ "Dave Bascombe"],
+    "engineer": ["Dave Bascombe"],
     "studio": [
       {
         "name": "Konk",
@@ -1715,20 +1675,19 @@
       }
     ]
   },
-  "nothing": {
-    "tittle": "Nothing",
+  {
+    "title": "Nothing",
     "release": [
       "Music For The Masses",
       "Strangelove 88",
       "101",
       "Remixes 81>04",
       "DMBX4"
-
     ],
     "date": "1987-09-28",
     "composer": ["Martin Lee Gore"],
     "producer": ["Dave Bascombe", "Depeche Mode"],
-    "engineer": [ "Dave Bascombe"],
+    "engineer": ["Dave Bascombe"],
     "studio": [
       {
         "name": "Konk",
@@ -1740,16 +1699,13 @@
       }
     ]
   },
-  "interlude 1 mission impossible": {
-    "tittle": "Interlude #1: Mission Impossible",
-    "release": [
-      "Music For The Masses"
-
-    ],
+  {
+    "title": "Interlude #1: Mission Impossible",
+    "release": ["Music For The Masses"],
     "date": "1987-09-28",
     "composer": ["Martin Lee Gore"],
     "producer": ["Dave Bascombe", "Depeche Mode"],
-    "engineer": [ "Dave Bascombe"],
+    "engineer": ["Dave Bascombe"],
     "studio": [
       {
         "name": "Guillaume Tell",
@@ -1757,17 +1713,13 @@
       }
     ]
   },
-  "behind the wheel": {
-    "tittle": "Behind the Wheel",
-    "release": [
-      "Music For The Masses",
-      "DMBX4",
-      "101"
-    ],
+  {
+    "title": "Behind the Wheel",
+    "release": ["Music For The Masses", "DMBX4", "101"],
     "date": "1987-12-28",
     "composer": ["Martin Lee Gore"],
     "producer": ["Dave Bascombe", "Depeche Mode"],
-    "engineer": [ "Dave Bascombe"],
+    "engineer": ["Dave Bascombe"],
     "studio": [
       {
         "name": "Konk",
@@ -1779,8 +1731,8 @@
       }
     ]
   },
-  "route 66": {
-    "tittle": "Route 66",
+  {
+    "title": "Route 66",
     "release": [
       "DMBX4",
       "Music For The Masses (Deluxe)",
@@ -1791,7 +1743,7 @@
     "date": "1987-12-28",
     "composer": ["Bobby Troup"],
     "producer": ["Dave Bascombe", "Depeche Mode"],
-    "engineer": [ "Dave Bascombe"],
+    "engineer": ["Dave Bascombe"],
     "studio": [
       {
         "name": "Konk",
@@ -1803,8 +1755,8 @@
       }
     ]
   },
-  "stjarna": {
-    "tittle": "Stjarna",
+  {
+    "title": "Stjarna",
     "release": [
       "DMBX3",
       "Music For The Masses (Deluxe)",
@@ -1814,7 +1766,7 @@
     "date": "1987-12-28",
     "composer": ["Martin Lee Gore"],
     "producer": ["Depeche Mode"],
-    "engineer": [ "Stephen Taylor", "James Monkman"],
+    "engineer": ["Stephen Taylor", "James Monkman"],
     "studio": [
       {
         "name": "Strongroom",
@@ -1822,8 +1774,8 @@
       }
     ]
   },
-  "moonlight sonata": {
-    "tittle": "Sonata N° 14 in C#m 'Moonlight Sonata'",
+  {
+    "title": "Sonata N° 14 in C#m 'Moonlight Sonata'",
     "release": [
       "DMBX3",
       "Music For The Masses (Deluxe)",
@@ -1833,7 +1785,7 @@
     "date": "1987-12-28",
     "composer": ["Ludwig Van Beethoven"],
     "producer": ["Depeche Mode"],
-    "engineer": [ "Stephen Taylor", "James Monkman"],
+    "engineer": ["Stephen Taylor", "James Monkman"],
     "studio": [
       {
         "name": "Strongroom",
@@ -1841,8 +1793,8 @@
       }
     ]
   },
-  "personal jesus": {
-    "tittle": "Personal Jesus",
+  {
+    "title": "Personal Jesus",
     "release": [
       "Personal Jesus",
       "Violator",
@@ -1850,7 +1802,7 @@
       "DMBX4",
       "DMBX5",
       "Remixes 2 81>11 (Deluxe)",
-      "Remixes 2 81>11", 
+      "Remixes 2 81>11",
       "Violator | The 12' Singles",
       "Songs of Faith and Devotion | The 12' Singles",
       "Personal Jesus 2011",
@@ -1863,7 +1815,15 @@
     "date": "1989-08-29",
     "composer": ["Martin Lee Gore"],
     "producer": ["Depeche Mode", "Flood"],
-    "engineer": [ "Pino Pischetola", "Dennis Mitchell", "Daryl Bamonte" , "Dick Meany", "David Browne", "Mark Flannery", "Ricky"],
+    "engineer": [
+      "Pino Pischetola",
+      "Dennis Mitchell",
+      "Daryl Bamonte",
+      "Dick Meany",
+      "David Browne",
+      "Mark Flannery",
+      "Ricky"
+    ],
     "studio": [
       {
         "name": "Logic",
@@ -1871,8 +1831,8 @@
       }
     ]
   },
-  "dangerous": {
-    "tittle": "Dangerous",
+  {
+    "title": "Dangerous",
     "release": [
       "Personal Jesus",
       "Violator (Deluxe)",
@@ -1882,7 +1842,7 @@
     "date": "1989-08-29",
     "composer": ["Martin Lee Gore"],
     "producer": ["Depeche Mode", "Flood"],
-    "engineer": [ "Pino Pischetola"],
+    "engineer": ["Pino Pischetola"],
     "studio": [
       {
         "name": "Logic",
@@ -1890,8 +1850,8 @@
       }
     ]
   },
-  "enjoy the silence": {
-    "tittle": "Enjoy The Silence",
+  {
+    "title": "Enjoy The Silence",
     "release": [
       "Enjoy The Silence",
       "Violator",
@@ -1901,17 +1861,15 @@
       "Remixes 81>04",
       "Tour of The Universe",
       "Live in Berlin",
-      "LiVE SPiRiTS", 
+      "LiVE SPiRiTS",
       "Enjoy The Silence 04",
       "Songs of Faith and Devotion | The 12' Singles",
       "DMBX5"
-
-
     ],
     "date": "1990-02-05",
     "composer": ["Martin Lee Gore"],
     "producer": ["Depeche Mode", "Flood"],
-    "engineer": [ "Peter Iversen"],
+    "engineer": ["Peter Iversen"],
     "studio": [
       {
         "name": "PUK",
@@ -1923,8 +1881,8 @@
       }
     ]
   },
-  "memphisto": {
-    "tittle": "Memphisto",
+  {
+    "title": "Memphisto",
     "release": [
       "Enjoy The Silence",
       "Violator (Deluxe)",
@@ -1934,7 +1892,7 @@
     "date": "1990-02-05",
     "composer": ["Martin Lee Gore"],
     "producer": ["Depeche Mode"],
-    "engineer": [ "Steve Lion"],
+    "engineer": ["Steve Lion"],
     "studio": [
       {
         "name": "The Church",
@@ -1942,8 +1900,8 @@
       }
     ]
   },
-  "sibeling": {
-    "tittle": "Sibeling",
+  {
+    "title": "Sibeling",
     "release": [
       "Enjoy The Silence",
       "Violator (Deluxe)",
@@ -1953,7 +1911,7 @@
     "date": "1990-02-05",
     "composer": ["Martin Lee Gore"],
     "producer": ["Depeche Mode"],
-    "engineer": [ "Steve Lion"],
+    "engineer": ["Steve Lion"],
     "studio": [
       {
         "name": "The Church",
@@ -1961,8 +1919,8 @@
       }
     ]
   },
-  "sweetest perfection": {
-    "tittle": "Sweetest perfection",
+  {
+    "title": "Sweetest perfection",
     "release": [
       "Violator",
       "Remixes 2 81>11 (Deluxe)",
@@ -1971,7 +1929,7 @@
     "date": "1990-03-19",
     "composer": ["Martin Lee Gore"],
     "producer": ["Depeche Mode", "Flood"],
-    "engineer": [ "Steve Lion", "Pino Pischetola"],
+    "engineer": ["Steve Lion", "Pino Pischetola"],
     "studio": [
       {
         "name": "The Church",
@@ -1983,8 +1941,8 @@
       }
     ]
   },
-  "halo": {
-    "tittle": "Halo",
+  {
+    "title": "Halo",
     "release": [
       "Violator",
       "Remixes 81>04",
@@ -1995,7 +1953,7 @@
     "date": "1990-03-19",
     "composer": ["Martin Lee Gore"],
     "producer": ["Depeche Mode", "Flood"],
-    "engineer": [ "Steve Lion", "Pino Pischetola"],
+    "engineer": ["Steve Lion", "Pino Pischetola"],
     "studio": [
       {
         "name": "The Church",
@@ -2007,8 +1965,8 @@
       }
     ]
   },
-  "waiting for the night": {
-    "tittle": "Waiting for the night",
+  {
+    "title": "Waiting for the night",
     "release": [
       "Violator",
       "Playing The Angel (Deluxe)",
@@ -2017,7 +1975,7 @@
     "date": "1990-03-19",
     "composer": ["Martin Lee Gore"],
     "producer": ["Depeche Mode", "Flood"],
-    "engineer": [ "Steve Lion", "Pino Pischetola"],
+    "engineer": ["Steve Lion", "Pino Pischetola"],
     "studio": [
       {
         "name": "The Church",
@@ -2029,15 +1987,13 @@
       }
     ]
   },
-  "blue dress": {
-    "tittle": "Blue Dress",
-    "release": [
-      "Violator"
-    ],
+  {
+    "title": "Blue Dress",
+    "release": ["Violator"],
     "date": "1990-03-19",
     "composer": ["Martin Lee Gore"],
     "producer": ["Depeche Mode", "Flood"],
-    "engineer": [ "Steve Lion", "Pino Pischetola"],
+    "engineer": ["Steve Lion", "Pino Pischetola"],
     "studio": [
       {
         "name": "The Church",
@@ -2049,8 +2005,8 @@
       }
     ]
   },
-  "clean": {
-    "tittle": "Clean",
+  {
+    "title": "Clean",
     "release": [
       "Violator",
       "Playing The Angel (Deluxe)",
@@ -2060,7 +2016,7 @@
     "date": "1990-03-19",
     "composer": ["Martin Lee Gore"],
     "producer": ["Depeche Mode", "Flood"],
-    "engineer": [ "Steve Lion", "Pino Pischetola"],
+    "engineer": ["Steve Lion", "Pino Pischetola"],
     "studio": [
       {
         "name": "The Church",
@@ -2072,8 +2028,8 @@
       }
     ]
   },
-  "policy of truth": {
-    "tittle": "Policy of Truth",
+  {
+    "title": "Policy of Truth",
     "release": [
       "Policy of Truth",
       "Violator",
@@ -2083,7 +2039,7 @@
     "date": "1990-05-07",
     "composer": ["Martin Lee Gore"],
     "producer": ["Depeche Mode", "Flood"],
-    "engineer": [ "Steve Lion", "Peter Iversen", "Goh Hotada"],
+    "engineer": ["Steve Lion", "Peter Iversen", "Goh Hotada"],
     "studio": [
       {
         "name": "The Church",
@@ -2099,8 +2055,8 @@
       }
     ]
   },
-  "kaleid": {
-    "tittle": "Kaleid",
+  {
+    "title": "Kaleid",
     "release": [
       "Policy of Truth",
       "Violator (Deluxe)",
@@ -2110,7 +2066,7 @@
     "date": "1990-05-07",
     "composer": ["Martin Lee Gore"],
     "producer": ["Depeche Mode"],
-    "engineer": [ "Steve Lion"],
+    "engineer": ["Steve Lion"],
     "studio": [
       {
         "name": "Konk",
@@ -2122,8 +2078,8 @@
       }
     ]
   },
-  "happiest girl": {
-    "tittle": "Happiest Girl",
+  {
+    "title": "Happiest Girl",
     "release": [
       "World in My Eyes",
       "Violator (Deluxe)",
@@ -2133,7 +2089,7 @@
     "date": "1990-09-17",
     "composer": ["Martin Lee Gore"],
     "producer": ["Depeche Mode", "Flood"],
-    "engineer": [ "Steve Lion", "Pino Pischetola", "Lloyd Puckitt"],
+    "engineer": ["Steve Lion", "Pino Pischetola", "Lloyd Puckitt"],
     "studio": [
       {
         "name": "Logic",
@@ -2149,8 +2105,8 @@
       }
     ]
   },
-  "world in my eyes": {
-    "tittle": "World in my eyes",
+  {
+    "title": "World in my eyes",
     "release": [
       "World in My Eyes",
       "Violator",
@@ -2166,7 +2122,7 @@
     "date": "1990-09-17",
     "composer": ["Martin Lee Gore"],
     "producer": ["Depeche Mode", "Flood"],
-    "engineer": [ "Steve Lion", "Pino Pischetola"],
+    "engineer": ["Steve Lion", "Pino Pischetola"],
     "studio": [
       {
         "name": "Logic",
@@ -2178,8 +2134,8 @@
       }
     ]
   },
-  "sea of sin": {
-    "tittle": "Sea of Sin",
+  {
+    "title": "Sea of Sin",
     "release": [
       "World in My Eyes",
       "Violator (Deluxe)",
@@ -2189,7 +2145,7 @@
     "date": "1990-09-17",
     "composer": ["Martin Lee Gore"],
     "producer": ["Depeche Mode", "Flood"],
-    "engineer": [ "Steve Lion", "Pino Pischetola", "Lloyd Puckitt"],
+    "engineer": ["Steve Lion", "Pino Pischetola", "Lloyd Puckitt"],
     "studio": [
       {
         "name": "Logic",
@@ -2205,8 +2161,8 @@
       }
     ]
   },
-  "death’s door": {
-    "tittle": "Death’s Door",
+  {
+    "title": "Death’s Door",
     "release": [
       "Until The End Of The World",
       "Death's Door PROMO",
@@ -2218,7 +2174,7 @@
     "date": "1992-??-??",
     "composer": ["Martin Lee Gore"],
     "producer": ["Depeche Mode"],
-    "engineer": [ "Steve Lion"],
+    "engineer": ["Steve Lion"],
     "studio": [
       {
         "name": "Konk",
@@ -2226,8 +2182,8 @@
       }
     ]
   },
-  "i feel you": {
-    "tittle": "I Feel You",
+  {
+    "title": "I Feel You",
     "release": [
       "I Feel You",
       "Songs of Faith and Devotion (Deluxe)",
@@ -2245,7 +2201,7 @@
     "date": "1993-02-15",
     "composer": ["Martin Lee Gore"],
     "producer": ["Depeche Mode", "Flood"],
-    "engineer": [ "Steve Lion", "Chris Dickie"],
+    "engineer": ["Steve Lion", "Chris Dickie"],
     "studio": [
       {
         "name": "Chapeau du pape",
@@ -2257,8 +2213,8 @@
       }
     ]
   },
-  "one caress": {
-    "tittle": "One Caress",
+  {
+    "title": "One Caress",
     "release": [
       "I Feel You",
       "Songs of Faith and Devotion (Deluxe)",
@@ -2269,7 +2225,7 @@
     "date": "1993-02-15",
     "composer": ["Martin Lee Gore"],
     "producer": ["Depeche Mode", "Flood"],
-    "engineer": [ "Steve Lion", "Chris Dickie"],
+    "engineer": ["Steve Lion", "Chris Dickie"],
     "studio": [
       {
         "name": "Chapeau du pape",
@@ -2281,8 +2237,8 @@
       }
     ]
   },
-  "mercy in you": {
-    "tittle": "Mercy in You",
+  {
+    "title": "Mercy in You",
     "release": [
       "Songs of Faith and Devotion (Deluxe)",
       "Songs of Faith and Devotion (Live)"
@@ -2290,7 +2246,7 @@
     "date": "1993-03-22",
     "composer": ["Martin Lee Gore"],
     "producer": ["Depeche Mode", "Flood"],
-    "engineer": [ "Steve Lion", "Chris Dickie", "Paul Kendall"],
+    "engineer": ["Steve Lion", "Chris Dickie", "Paul Kendall"],
     "studio": [
       {
         "name": "Residential Chalet",
@@ -2306,17 +2262,17 @@
       }
     ]
   },
-  "judas": {
-    "tittle": "Judas",
+  {
+    "title": "Judas",
     "release": [
       "Songs of Faith and Devotion (Deluxe)",
-      "Songs of Faith and Devotion (Live)", 
+      "Songs of Faith and Devotion (Live)",
       "Sounds of The Universe (Deluxe)"
     ],
     "date": "1993-03-22",
     "composer": ["Martin Lee Gore"],
     "producer": ["Depeche Mode", "Flood"],
-    "engineer": [ "Steve Lion", "Chris Dickie", "Paul Kendall"],
+    "engineer": ["Steve Lion", "Chris Dickie", "Paul Kendall"],
     "studio": [
       {
         "name": "Chapeau du pape",
@@ -2328,8 +2284,8 @@
       }
     ]
   },
-  "get right with me": {
-    "tittle": "Get Right With Mer",
+  {
+    "title": "Get Right With Me",
     "release": [
       "Songs of Faith and Devotion (Deluxe)",
       "Songs of Faith and Devotion (Live)"
@@ -2337,7 +2293,7 @@
     "date": "1993-03-22",
     "composer": ["Martin Lee Gore"],
     "producer": ["Depeche Mode", "Flood"],
-    "engineer": [ "Steve Lion", "Chris Dickie", "Paul Kendall"],
+    "engineer": ["Steve Lion", "Chris Dickie", "Paul Kendall"],
     "studio": [
       {
         "name": "Chapeau du pape",
@@ -2349,11 +2305,11 @@
       }
     ]
   },
-  "rush": {
-    "tittle": "Rush",
+  {
+    "title": "Rush",
     "release": [
       "Songs of Faith and Devotion (Deluxe)",
-      "Songs of Faith and Devotion (Live)", 
+      "Songs of Faith and Devotion (Live)",
       "Remixes 81>04",
       "Songs of Faith and Devotion | The 12' Singles",
       "DMBX5"
@@ -2361,7 +2317,7 @@
     "date": "1993-03-22",
     "composer": ["Martin Lee Gore"],
     "producer": ["Depeche Mode", "Flood"],
-    "engineer": [ "Steve Lion"],
+    "engineer": ["Steve Lion"],
     "studio": [
       {
         "name": "Residential Chalet",
@@ -2377,11 +2333,11 @@
       }
     ]
   },
-  "higher love": {
-    "tittle": "Higher Love",
+  {
+    "title": "Higher Love",
     "release": [
       "Songs of Faith and Devotion (Deluxe)",
-      "Songs of Faith and Devotion (Live)", 
+      "Songs of Faith and Devotion (Live)",
       "Remixes 2 81>11 (Deluxe)",
       "Songs of Faith and Devotion | The 12' Singles",
       "DMBX5"
@@ -2389,7 +2345,7 @@
     "date": "1993-03-22",
     "composer": ["Martin Lee Gore"],
     "producer": ["Depeche Mode", "Flood"],
-    "engineer": [ "Steve Lion", "Chris Dickie", "Paul Kendall"],
+    "engineer": ["Steve Lion", "Chris Dickie", "Paul Kendall"],
     "studio": [
       {
         "name": "Residential Chalet",
@@ -2405,15 +2361,15 @@
       }
     ]
   },
-  "walking in my  shoes": {
-    "tittle": "Walking in My Shoes",
+  {
+    "title": "Walking in My Shoes",
     "release": [
       "Songs of Faith and Devotion (Deluxe)",
       "Songs of Faith and Devotion (Live)",
       "The Singles 86>98",
       "Tour of The Universe",
       "Live in Berlin",
-      "The Best of Depeche Mode vol 1", 
+      "The Best of Depeche Mode vol 1",
       "Sounds of The Universe (Deluxe)",
       "Remixes 81>04",
       "Remixes 2 81>11 (Deluxe)",
@@ -2424,7 +2380,7 @@
     "date": "1993-04-26",
     "composer": ["Martin Lee Gore"],
     "producer": ["Depeche Mode", "Flood"],
-    "engineer": [ "Steve Lion", "Chris Dickie"],
+    "engineer": ["Steve Lion", "Chris Dickie"],
     "studio": [
       {
         "name": "Chapeau du pape",
@@ -2436,8 +2392,8 @@
       }
     ]
   },
-  "my joy": {
-    "tittle": "My Joy",
+  {
+    "title": "My Joy",
     "release": [
       "Songs of Faith and Devotion (Deluxe)",
       "Songs of Faith and Devotion | The 12' Singles",
@@ -2446,7 +2402,7 @@
     "date": "1993-04-26",
     "composer": ["Martin Lee Gore"],
     "producer": ["Depeche Mode", "Flood"],
-    "engineer": [ "Steve Lion", "Chris Dickie"],
+    "engineer": ["Steve Lion", "Chris Dickie"],
     "studio": [
       {
         "name": "Chapeau du pape",
@@ -2458,8 +2414,8 @@
       }
     ]
   },
-  "condemnation": {
-    "tittle": "Condemnation",
+  {
+    "title": "Condemnation",
     "release": [
       "Condemnation",
       "Songs of Faith and Devotion (Deluxe)",
@@ -2471,7 +2427,7 @@
     "date": "1993-09-13",
     "composer": ["Martin Lee Gore"],
     "producer": ["Depeche Mode", "Flood"],
-    "engineer": [ "Steve Lion"],
+    "engineer": ["Steve Lion"],
     "studio": [
       {
         "name": "Residential Chalet",
@@ -2487,8 +2443,8 @@
       }
     ]
   },
-  "in your room": {
-    "tittle": "In Your Room",
+  {
+    "title": "In Your Room",
     "release": [
       "In Your Room",
       "Songs of Faith and Devotion (Deluxe)",
@@ -2496,14 +2452,13 @@
       "Songs of Faith and Devotion | The 12' Singles",
       "DMBX5",
       "The Singles 86>98",
-      "Remixes 81>04", 
+      "Remixes 81>04",
       "Tour of The Universe"
-
     ],
     "date": "1994-01-10",
     "composer": ["Martin Lee Gore"],
     "producer": ["Depeche Mode", "Flood"],
-    "engineer": [ "Steve Lion"],
+    "engineer": ["Steve Lion"],
     "studio": [
       {
         "name": "Residential Chalet",
@@ -2515,8 +2470,8 @@
       }
     ]
   },
-  "barrel of a gun": {
-    "tittle": "Barrel of a Gun",
+  {
+    "title": "Barrel of a Gun",
     "release": [
       "Barrel of a Gun",
       "Ultra (Deluxe)",
@@ -2525,12 +2480,11 @@
       "The Singles 86>98",
       "Remixes 81>04",
       "Remixes 2 81>11 (Deluxe)"
-
     ],
     "date": "1997-02-03",
     "composer": ["Martin Lee Gore"],
     "producer": ["Tim Simenom"],
-    "engineer": [ "Q"],
+    "engineer": ["Q"],
     "studio": [
       {
         "name": "Eastcote Studios",
@@ -2546,8 +2500,8 @@
       }
     ]
   },
-  "painkiller": {
-    "tittle": "Painkiller",
+  {
+    "title": "Painkiller",
     "release": [
       "Barrel of a Gun",
       "Ultra (Deluxe)",
@@ -2558,7 +2512,7 @@
     "date": "1997-02-03",
     "composer": ["Martin Lee Gore"],
     "producer": ["Tim Simenom"],
-    "engineer": [ "Q"],
+    "engineer": ["Q"],
     "studio": [
       {
         "name": "Eastcote Studios",
@@ -2574,23 +2528,23 @@
       }
     ]
   },
-  "it's no good": {
-    "tittle": "It's no Good",
+  {
+    "title": "It's no Good",
     "release": [
       "It's no Good",
       "Ultra (Deluxe)",
       "Ultra | The 12' Singles",
       "The Singles 86>98",
       "DMBX6",
-      "Remixes 81>04", 
-      "LiVE SPiRiTS", 
-      "Tour of The Universe", 
+      "Remixes 81>04",
+      "LiVE SPiRiTS",
+      "Tour of The Universe",
       "The Best of Depeche Mode vol 1"
     ],
     "date": "1997-03-31",
     "composer": ["Martin Lee Gore"],
     "producer": ["Tim Simenom"],
-    "engineer": [ "Q"],
+    "engineer": ["Q"],
     "studio": [
       {
         "name": "Larrabee West",
@@ -2606,8 +2560,8 @@
       }
     ]
   },
-  "slowblow": {
-    "tittle": "Slowblow",
+  {
+    "title": "Slowblow",
     "release": [
       "It's no Good",
       "Ultra (Deluxe)",
@@ -2618,7 +2572,7 @@
     "date": "1997-03-31",
     "composer": ["Martin Lee Gore"],
     "producer": ["Tim Simenom"],
-    "engineer": [ "Q"],
+    "engineer": ["Q"],
     "studio": [
       {
         "name": "Abbey Road",
@@ -2626,15 +2580,13 @@
       }
     ]
   },
-  "the love thieves": {
-    "tittle": "The Love Thieves",
-    "release": [
-      "Ultra (Deluxe)"
-    ],
+  {
+    "title": "The Love Thieves",
+    "release": ["Ultra (Deluxe)"],
     "date": "1997-04-14",
     "composer": ["Martin Lee Gore"],
     "producer": ["Tim Simenom"],
-    "engineer": [ "Q", "Gareth Jones"],
+    "engineer": ["Q", "Gareth Jones"],
     "studio": [
       {
         "name": "Electric Lady",
@@ -2650,15 +2602,13 @@
       }
     ]
   },
-  "uselink": {
-    "tittle": "Uselink",
-    "release": [
-      "Ultra (Deluxe)"
-    ],
+  {
+    "title": "Uselink",
+    "release": ["Ultra (Deluxe)"],
     "date": "1997-04-14",
     "composer": ["Martin Lee Gore"],
     "producer": ["Tim Simenom"],
-    "engineer": [ "Q"],
+    "engineer": ["Q"],
     "studio": [
       {
         "name": "RAK Studios",
@@ -2666,16 +2616,13 @@
       }
     ]
   },
-  "sister of night": {
-    "tittle": "Sister of Night",
-    "release": [
-      "Ultra (Deluxe)",
-      "Remixes 2 81>11 (Deluxe)"
-    ],
+  {
+    "title": "Sister of Night",
+    "release": ["Ultra (Deluxe)", "Remixes 2 81>11 (Deluxe)"],
     "date": "1997-04-14",
     "composer": ["Martin Lee Gore"],
     "producer": ["Tim Simenom"],
-    "engineer": [ "Q"],
+    "engineer": ["Q"],
     "studio": [
       {
         "name": "Eastcote Studios",
@@ -2686,20 +2633,18 @@
         "location": "Los Angeles, USA"
       },
       {
-        "name":"Abbey Road",
-        "location":"London, England"
+        "name": "Abbey Road",
+        "location": "London, England"
       }
     ]
   },
-  "jazz thieves": {
-    "tittle": "Jazz Thieves",
-    "release": [
-      "Ultra (Deluxe)"
-    ],
+  {
+    "title": "Jazz Thieves",
+    "release": ["Ultra (Deluxe)"],
     "date": "1997-04-14",
     "composer": ["Martin Lee Gore"],
     "producer": ["Tim Simenom"],
-    "engineer": [ "Q"],
+    "engineer": ["Q"],
     "studio": [
       {
         "name": "Eastcote Studios",
@@ -2710,21 +2655,18 @@
         "location": "Los Angeles, USA"
       },
       {
-        "name":"Abbey Road",
-        "location":"London, England"
+        "name": "Abbey Road",
+        "location": "London, England"
       }
     ]
   },
-  "freestate": {
-    "tittle": "Freestate",
-    "release": [
-      "Ultra (Deluxe)",
-      "Remixes 2 81>11 (Deluxe)"
-    ],
+  {
+    "title": "Freestate",
+    "release": ["Ultra (Deluxe)", "Remixes 2 81>11 (Deluxe)"],
     "date": "1997-04-14",
     "composer": ["Martin Lee Gore"],
     "producer": ["Tim Simenom"],
-    "engineer": [ "Q", "Gareth Jones"],
+    "engineer": ["Q", "Gareth Jones"],
     "studio": [
       {
         "name": "Abbey Road",
@@ -2735,20 +2677,18 @@
         "location": "New York, USA"
       },
       {
-        "name":"RAK Studios",
-        "location":"London, England"
+        "name": "RAK Studios",
+        "location": "London, England"
       }
     ]
   },
-  "the bottom line": {
-    "tittle": "The Bottom Line",
-    "release": [
-      "Ultra (Deluxe)"
-    ],
+  {
+    "title": "The Bottom Line",
+    "release": ["Ultra (Deluxe)"],
     "date": "1997-04-14",
     "composer": ["Martin Lee Gore"],
     "producer": ["Tim Simenom"],
-    "engineer": [ "Q"],
+    "engineer": ["Q"],
     "studio": [
       {
         "name": "Abbey Road",
@@ -2759,20 +2699,18 @@
         "location": "New York, USA"
       },
       {
-        "name":"Strongroom Studios",
-        "location":"London, England"
+        "name": "Strongroom Studios",
+        "location": "London, England"
       }
     ]
   },
-  "insight": {
-    "tittle": "Insight",
-    "release": [
-      "Ultra (Deluxe)"
-    ],
+  {
+    "title": "Insight",
+    "release": ["Ultra (Deluxe)"],
     "date": "1997-04-14",
     "composer": ["Martin Lee Gore"],
     "producer": ["Tim Simenom"],
-    "engineer": [ "Q"],
+    "engineer": ["Q"],
     "studio": [
       {
         "name": "Eastcote Studios",
@@ -2783,13 +2721,13 @@
         "location": "Los Angeles, USA"
       },
       {
-        "name":"Abbey Road",
-        "location":"London, England"
+        "name": "Abbey Road",
+        "location": "London, England"
       }
     ]
   },
-  "home": {
-    "tittle": "Home",
+  {
+    "title": "Home",
     "release": [
       "Home",
       "Ultra (Deluxe)",
@@ -2802,7 +2740,7 @@
     "date": "1997-06-16",
     "composer": ["Martin Lee Gore"],
     "producer": ["Tim Simenom"],
-    "engineer": [ "Q", "Gareth Jones"],
+    "engineer": ["Q", "Gareth Jones"],
     "studio": [
       {
         "name": "Eastcote Studios",
@@ -2813,17 +2751,17 @@
         "location": "London, England"
       },
       {
-        "name":"Abbey Road",
-        "location":"London, England"
+        "name": "Abbey Road",
+        "location": "London, England"
       },
       {
         "name": "RAK Studios",
-        "location":"London, England"
+        "location": "London, England"
       }
     ]
   },
-  "useless": {
-    "tittle": "Useless",
+  {
+    "title": "Useless",
     "release": [
       "Useless",
       "Ultra (Deluxe)",
@@ -2836,7 +2774,7 @@
     "date": "1997-10-20",
     "composer": ["Martin Lee Gore"],
     "producer": ["Tim Simenom"],
-    "engineer": [ "Q"],
+    "engineer": ["Q"],
     "studio": [
       {
         "name": "Eastcote Studios",
@@ -2847,13 +2785,13 @@
         "location": "London, England"
       },
       {
-        "name":"Abbey Road",
-        "location":"London, England"
+        "name": "Abbey Road",
+        "location": "London, England"
       }
     ]
   },
-  "only when i lose myself": {
-    "tittle": "Only When I Lose Myself",
+  {
+    "title": "Only When I Lose Myself",
     "release": [
       "Only When I Lose Myself",
       "Ultra (Deluxe)",
@@ -2865,20 +2803,20 @@
     "date": "1998-09-07",
     "composer": ["Martin Lee Gore"],
     "producer": ["Tim Simenom"],
-    "engineer": [ "Robin Hancock"],
+    "engineer": ["Robin Hancock"],
     "studio": [
       {
         "name": "Eastcote Studios",
         "location": "London, England"
       },
       {
-        "name":"Abbey Road",
-        "location":"London, England"
+        "name": "Abbey Road",
+        "location": "London, England"
       }
     ]
   },
-  "surrender": {
-    "tittle": "Surrender",
+  {
+    "title": "Surrender",
     "release": [
       "Only When I Lose Myself",
       "Ultra (Deluxe)",
@@ -2888,54 +2826,50 @@
     "date": "1998-09-07",
     "composer": ["Martin Lee Gore"],
     "producer": ["Tim Simenom"],
-    "engineer": [ "Robin Hancock"],
+    "engineer": ["Robin Hancock"],
     "studio": [
       {
         "name": "Eastcote Studios",
         "location": "London, England"
       },
       {
-        "name":"Abbey Road",
-        "location":"London, England"
+        "name": "Abbey Road",
+        "location": "London, England"
       }
     ]
   },
-  "headstar": {
-    "tittle": "Headstar",
-    "release": [
-      "Only When I Lose Myself",
-      "Ultra (Deluxe)",
-      "DMBX6"
-    ],
+  {
+    "title": "Headstar",
+    "release": ["Only When I Lose Myself", "Ultra (Deluxe)", "DMBX6"],
     "date": "1998-09-07",
     "composer": ["Martin Lee Gore"],
     "producer": ["Tim Simenom"],
-    "engineer": [ "Robin Hancock"],
+    "engineer": ["Robin Hancock"],
     "studio": [
       {
         "name": "Eastcote Studios",
         "location": "London, England"
       },
       {
-        "name":"Abbey Road",
-        "location":"London, England"
+        "name": "Abbey Road",
+        "location": "London, England"
       }
     ]
   },
-  "dream on": {
-    "tittle": "Dream On",
+  {
+    "title": "Dream On",
     "release": [
       "Dream On",
       "Exciter (Deluxe)",
       "The Best of Depeche Mode vol 1",
-      "DMBX6", 
-      "Remixes 2 81>11 (Deluxe)", 
+      "DMBX6",
+      "Remixes 2 81>11 (Deluxe)",
       "Exciter | The 12' Singles"
     ],
     "date": "2001-04-23",
     "composer": ["Martin Lee Gore"],
     "producer": ["Mark Bell"],
-    "engineer": [ "Gareth Jones"],
+    "engineer": ["Gareth Jones"],
     "studio": [
       {
         "name": "missing data",
@@ -2943,4 +2877,4 @@
       }
     ]
   }
-}
+]

@@ -1,6 +1,6 @@
-{
-  "speak and spell":{
-    "tittle": "Speak and Spell",
+[
+  {
+    "title": "Speak and Spell",
     "date": "1981-10-05",
     "producer": ["Daniel Miller", "Depeche Mode"],
     "engineer": ["Eric Radcliffe", "John Fryer"],
@@ -20,8 +20,8 @@
     "cover": "https://res.cloudinary.com/dlzp43wz9/image/upload/v1689288669/DM/01_speakandspell_main_ktiml1.jpg",
     "media": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/album/0ntg4L6zjosDII94zoyboq?utm_source=generator' width='100%' height='152' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>"
   },
-  "speak and spell deluxe":{
-    "tittle": "Speak and Spell (Deluxe)",
+  {
+    "title": "Speak and Spell (Deluxe)",
     "date": "1981-10-05",
     "producer": ["Daniel Miller", "Depeche Mode"],
     "engineer": ["Eric Radcliffe", "John Fryer"],
@@ -46,4 +46,4 @@
     "cover": "https://res.cloudinary.com/dlzp43wz9/image/upload/v1689288669/DM/01_speakandspell_main_ktiml1.jpg",
     "media": "<iframe style='border-radius:12px' src='https://open.spotify.com/embed/album/0ntg4L6zjosDII94zoyboq?utm_source=generator' width='100%' height='152' frameBorder='0' allowfullscreen='' allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture' loading='lazy'></iframe>"
   }
-}
+]

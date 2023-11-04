@@ -1,14 +1,14 @@
 import { Devotee } from "../models/devotee";
-import { Song }from '../models/song'
+import { Song } from "../models/song";
 import { Request, Response } from "express";
 import axios from "axios";
 import * as bcrypt from "bcrypt";
 import * as dotenv from "dotenv";
 import { getRandomArbitrary } from "../functions";
-dotenv.config()
+dotenv.config();
 const code = "añlsdkfjqpw3ri5781";
 const password = "contraseña";
-const ROUNDS = Number(process.env.ROUNDS)
+const ROUNDS = Number(process.env.ROUNDS);
 
 const songs = [
   "New Life",
@@ -113,7 +113,7 @@ const songs = [
   "Happiest Girl",
   "Policy of Truth",
   "Sea of Sin",
-  "Death’s door",
+  "Death’s Door",
   "I Feel You",
   "One Caress",
   "Mercy in You",
@@ -143,59 +143,64 @@ const songs = [
   "Headstar",
   "Dream On",
   "Dangerous",
-  "Personal Jesus"
-]
+  "Personal Jesus",
+];
 
-
-export async function chargeDevotees(_req: Request, res: Response){
-  const people = await axios.get("https://api.generadordni.es/v2/profiles/person?limit=10");
-  const passwordHasshed= await bcrypt.hash(password, ROUNDS)
-  let count = 0
-  people.data.forEach((p: any) => {
-    let favSongs = [];
-    for (let i = 0; i < 10; i++) {
-      favSongs.push(songs[getRandomArbitrary(0, songs.length)]);
-    }
-    let devotee = new Devotee({
-      Name: p.name,
-      lastName: p.surname, 
-      userName: p.username,
-      email: p.email,
-      password: passwordHasshed,
-      favouriteSongs: favSongs,
-      image: "https://res.cloudinary.com/dlzp43wz9/image/upload/v1689692354/136-1366211_group-of-10-guys-login-user-icon-png_xuupui.jpg", 
-      country: "Argentina",
-      verified: true,
-      test: true, 
-      code
-    })
-    devotee.save();
-    favSongs.forEach(async(s) => {
-
-      try {
-        let song = await Song.findOne({ tittle: s });
+export async function chargeDevotees(_req: Request, res: Response) {
+  try {
+    const people = await axios.get(
+      `https://api.generadordni.es/v2/profiles/person`
+    );
+    console.log(people.data.length, "cantidad de personas");
+    const passwordHasshed = await bcrypt.hash(password, ROUNDS);
+    let count = 0;
+    people.data.forEach((p: any) => {
+      let favSongs = [];
+      for (let i = 0; i < 10; i++) {
+        favSongs.push(songs[getRandomArbitrary(0, songs.length)]);
+        console.log(songs[getRandomArbitrary(0, songs.length)]);
+      }
+      let devotee = new Devotee({
+        Name: p.name,
+        lastName: p.surname,
+        userName: p.username,
+        email: p.email,
+        password: passwordHasshed,
+        favouriteSongs: favSongs,
+        image:
+          "https://res.cloudinary.com/dlzp43wz9/image/upload/v1689692354/136-1366211_group-of-10-guys-login-user-icon-png_xuupui.jpg",
+        country: "Argentina",
+        verified: true,
+        test: true,
+        code,
+      });
+      devotee.save();
+      favSongs.forEach(async (s) => {
+        let song = await Song.findOne({ title: s });
         if (song) {
           song.favourite += 1;
           await song.save();
         } else {
           console.log(`Canción no encontrada: ${s}`);
         }
-      } catch (error) {
-        console.error(error);
-      }
-
-    })
-    count ++
-  })
-  return res.send({message: ` ${count} Devotees de prueba cargados a la BD`})
-}
-export async function deleteDevDevotees(_req: Request, res: Response){
-  try {
-    const devotees = await Devotee.find({ test: true })
-    devotees.forEach((d:any) => d.deleteOne())
-    return res.send({message: "todos los devotees de prueba fueron eliminados de la BD"})
-  } catch (error:any) {
-    return res.send(error)
+      });
+      count++;
+    });
+    return res.send({
+      message: ` ${count} Devotees de prueba cargados a la BD`,
+    });
+  } catch (error: any) {
+    return res.status(400).send(error);
   }
-
+}
+export async function deleteDevDevotees(_req: Request, res: Response) {
+  try {
+    const devotees = await Devotee.find({ test: true });
+    devotees.forEach((d: any) => d.deleteOne());
+    return res.send({
+      message: "todos los devotees de prueba fueron eliminados de la BD",
+    });
+  } catch (error: any) {
+    return res.send(error);
+  }
 }

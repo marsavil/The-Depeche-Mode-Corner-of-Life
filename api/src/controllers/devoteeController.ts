@@ -10,7 +10,7 @@ import { Request, Response } from 'express'
         res.status(201).json(devotee);
       }else {
         const devotees = await Devotee.find();
-        res.status(201).json(devotees)
+        res.status(201).json({ data: devotees, length: devotees.length })
       }
       
     } catch (error:any) {
